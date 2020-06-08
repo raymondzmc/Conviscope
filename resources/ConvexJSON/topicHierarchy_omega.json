@@ -1,0 +1,65 @@
+[
+    {
+        "topicID": "0",
+        "labels": [
+            {
+                "phrase": "Symptoms",
+                "prob": 0.1428
+            }
+        ]
+    },
+    {
+        "topicID": "1",
+        "labels": [
+            {
+                "phrase": "Diagnostic",
+                "prob": 0.1428
+            }
+        ]
+    },
+    {
+        "topicID": "2",
+        "labels": [
+            {
+                "phrase": "Treatment (Rx)",
+                "prob": 0.1428
+            }
+        ]
+    },
+    {
+        "topicID": "3",
+        "labels": [
+            {
+                "phrase": "Lifestyle",
+                "prob": 0.1428
+            }
+        ]
+    },
+    {
+        "topicID": "4",
+        "labels": [
+            {
+                "phrase": "Social",
+                "prob": 0.14285764
+            }
+        ]
+    },
+    {
+        "topicID": "5",
+        "labels": [
+            {
+                "phrase": "Logistical",
+                "prob": 0.2856
+            }
+        ]
+    },
+    {
+        "topicID": "6",
+        "labels": [
+            {
+                "phrase": "Patient Needs",
+                "prob": 0.0
+            }
+        ]
+    }
+]

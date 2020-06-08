@@ -1,0 +1,862 @@
+{
+    "totalAuthors": "?",
+    "totalTopics": "25",
+    "totalLines": "9",
+    "commentid": "articleomega_2",
+    "title": "March, 2017",
+    "author": "empty",
+    "date": "March 06, 2017, 08:27 PM",
+    "htmltext": "North Coast Primary Care",
+    "systemtopicid": [],
+    "children": [
+        {
+            "commentid": "0",
+            "title": 44,
+            "author": "P",
+            "date": "2017-03-06 20:27",
+            "htmltext": "(P): Good || (C): haven't heard from you yet. how are you? || (C): haven't heard from you yet. how are you?",
+            "systemtopicid": [
+                24
+            ],
+            "sent": [
+                {
+                    "linePolarity": 3.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Good || (C): haven't heard from you yet. how are you? || (C): haven't heard from you yet. how are you?",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Good || (C): haven't heard from you yet. how are you? || (C): haven't heard from you yet. how are you?",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Good || (C): haven't heard from you yet. how are you? || (C): haven't heard from you yet. how are you?",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Good || (C): haven't heard from you yet. how are you? || (C): haven't heard from you yet. how are you?",
+                    "sentimentwords": []
+                }
+            ]
+        },
+        {
+            "commentid": "1",
+            "title": 71,
+            "author": "P",
+            "date": "2017-03-23 17:08",
+            "htmltext": "(P): Got it || (C):  name . Sorry about test message but can you let me know if you get this.  name  from computer. || (C): haven't heard from you yet. how are you? || (P): I'm good, who is this? Sorry to ask, all I have is a number.",
+            "systemtopicid": [
+                3,
+                24
+            ],
+            "sent": [
+                {
+                    "linePolarity": -4.5,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Got it || (C):  name . Sorry about test message but can you let me know if you get this.  name  from computer. || (C): haven't heard from you yet. how are you? || (P): I'm good, who is this? Sorry to ask, all I have is a number.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Got it || (C):  name . Sorry about test message but can you let me know if you get this.  name  from computer. || (C): haven't heard from you yet. how are you? || (P): I'm good, who is this? Sorry to ask, all I have is a number.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Got it || (C):  name . Sorry about test message but can you let me know if you get this.  name  from computer. || (C): haven't heard from you yet. how are you? || (P): I'm good, who is this? Sorry to ask, all I have is a number.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Got it || (C):  name . Sorry about test message but can you let me know if you get this.  name  from computer. || (C): haven't heard from you yet. how are you? || (P): I'm good, who is this? Sorry to ask, all I have is a number.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Got it || (C):  name . Sorry about test message but can you let me know if you get this.  name  from computer. || (C): haven't heard from you yet. how are you? || (P): I'm good, who is this? Sorry to ask, all I have is a number.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": -2.25,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Got it || (C):  name . Sorry about test message but can you let me know if you get this.  name  from computer. || (C): haven't heard from you yet. how are you? || (P): I'm good, who is this? Sorry to ask, all I have is a number.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Got it || (C):  name . Sorry about test message but can you let me know if you get this.  name  from computer. || (C): haven't heard from you yet. how are you? || (P): I'm good, who is this? Sorry to ask, all I have is a number.",
+                    "sentimentwords": []
+                }
+            ]
+        },
+        {
+            "commentid": "2",
+            "title": 77,
+            "author": "P",
+            "date": "2017-03-23 23:54",
+            "htmltext": "(C): You have an upcoming appointment at 10:00am at clinic || (P): Good || (P): Testing. || (P): Help || (P): Good || (P): WelTel QC || (P): Help",
+            "systemtopicid": [
+                18,
+                23
+            ],
+            "sent": [
+                {
+                    "linePolarity": 7.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): You have an upcoming appointment at 10:00am at clinic || (P): Good || (P): Testing. || (P): Help || (P): Good || (P): WelTel QC || (P): Help",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 3.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): You have an upcoming appointment at 10:00am at clinic || (P): Good || (P): Testing. || (P): Help || (P): Good || (P): WelTel QC || (P): Help",
+                    "sentimentwords": []
+                }
+            ]
+        },
+        {
+            "commentid": "3",
+            "title": 108,
+            "author": "P",
+            "date": "2017-03-24 17:30",
+            "htmltext": "(P): Hi there || (P): Bad || (C): What's going on. || (P): Good || (P): Ok || (P): Lost my mess || (C): Could you come see your doctor at 2:00PM today at the clinic. || (C): I will send in mail.",
+            "systemtopicid": [],
+            "sent": [
+                {
+                    "linePolarity": -4.5,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Hi there || (P): Bad || (C): What's going on. || (P): Good || (P): Ok || (P): Lost my mess || (C): Could you come see your doctor at 2:00PM today at the clinic. || (C): I will send in mail.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": -2.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Hi there || (P): Bad || (C): What's going on. || (P): Good || (P): Ok || (P): Lost my mess || (C): Could you come see your doctor at 2:00PM today at the clinic. || (C): I will send in mail.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Hi there || (P): Bad || (C): What's going on. || (P): Good || (P): Ok || (P): Lost my mess || (C): Could you come see your doctor at 2:00PM today at the clinic. || (C): I will send in mail.",
+                    "sentimentwords": []
+                }
+            ]
+        },
+        {
+            "commentid": "4",
+            "title": 116,
+            "author": "P",
+            "date": "2017-03-24 17:44",
+            "htmltext": "(C): This was from  name . Someone else playing first. || (P): Good morning || (C): Good morning, from your friends @ Weltel || (C): I'll call you || (C): Good morning back. Playing with Weltel || (P): I had the chocolate and now I have terrible gut pain, explosive diarrhea || (P): I'm not kidding I'm really dying || (C): What's seems to be the problem, missy? || (C): haven't heard from you yet. how are you? || (P): I'm having a heart attack || (P): I'm dying",
+            "systemtopicid": [
+                0,
+                17
+            ],
+            "sent": [
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): This was from  name . Someone else playing first. || (P): Good morning || (C): Good morning, from your friends @ Weltel || (C): I'll call you || (C): Good morning back. Playing with Weltel || (P): I had the chocolate and now I have terrible gut pain, explosive diarrhea || (P): I'm not kidding I'm really dying || (C): What's seems to be the problem, missy? || (C): haven't heard from you yet. how are you? || (P): I'm having a heart attack || (P): I'm dying",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 1.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): This was from  name . Someone else playing first. || (P): Good morning || (C): Good morning, from your friends @ Weltel || (C): I'll call you || (C): Good morning back. Playing with Weltel || (P): I had the chocolate and now I have terrible gut pain, explosive diarrhea || (P): I'm not kidding I'm really dying || (C): What's seems to be the problem, missy? || (C): haven't heard from you yet. how are you? || (P): I'm having a heart attack || (P): I'm dying",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 7.5,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): This was from  name . Someone else playing first. || (P): Good morning || (C): Good morning, from your friends @ Weltel || (C): I'll call you || (C): Good morning back. Playing with Weltel || (P): I had the chocolate and now I have terrible gut pain, explosive diarrhea || (P): I'm not kidding I'm really dying || (C): What's seems to be the problem, missy? || (C): haven't heard from you yet. how are you? || (P): I'm having a heart attack || (P): I'm dying",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": -13.5,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): This was from  name . Someone else playing first. || (P): Good morning || (C): Good morning, from your friends @ Weltel || (C): I'll call you || (C): Good morning back. Playing with Weltel || (P): I had the chocolate and now I have terrible gut pain, explosive diarrhea || (P): I'm not kidding I'm really dying || (C): What's seems to be the problem, missy? || (C): haven't heard from you yet. how are you? || (P): I'm having a heart attack || (P): I'm dying",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): This was from  name . Someone else playing first. || (P): Good morning || (C): Good morning, from your friends @ Weltel || (C): I'll call you || (C): Good morning back. Playing with Weltel || (P): I had the chocolate and now I have terrible gut pain, explosive diarrhea || (P): I'm not kidding I'm really dying || (C): What's seems to be the problem, missy? || (C): haven't heard from you yet. how are you? || (P): I'm having a heart attack || (P): I'm dying",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): This was from  name . Someone else playing first. || (P): Good morning || (C): Good morning, from your friends @ Weltel || (C): I'll call you || (C): Good morning back. Playing with Weltel || (P): I had the chocolate and now I have terrible gut pain, explosive diarrhea || (P): I'm not kidding I'm really dying || (C): What's seems to be the problem, missy? || (C): haven't heard from you yet. how are you? || (P): I'm having a heart attack || (P): I'm dying",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": -2.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): This was from  name . Someone else playing first. || (P): Good morning || (C): Good morning, from your friends @ Weltel || (C): I'll call you || (C): Good morning back. Playing with Weltel || (P): I had the chocolate and now I have terrible gut pain, explosive diarrhea || (P): I'm not kidding I'm really dying || (C): What's seems to be the problem, missy? || (C): haven't heard from you yet. how are you? || (P): I'm having a heart attack || (P): I'm dying",
+                    "sentimentwords": []
+                }
+            ]
+        },
+        {
+            "commentid": "5",
+            "title": 136,
+            "author": "P",
+            "date": "2017-03-27 19:17",
+            "htmltext": "(C): Awesome...you know where we are if needed. || (P): Doing well, very little moisture, but it  seems good || (C): I promise you will not get lots of texts but  name  here and wondering how wound is doing? || (P): Good",
+            "systemtopicid": [],
+            "sent": [
+                {
+                    "linePolarity": 5.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Awesome...you know where we are if needed. || (P): Doing well, very little moisture, but it  seems good || (C): I promise you will not get lots of texts but  name  here and wondering how wound is doing? || (P): Good",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 4.2,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Awesome...you know where we are if needed. || (P): Doing well, very little moisture, but it  seems good || (C): I promise you will not get lots of texts but  name  here and wondering how wound is doing? || (P): Good",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 1.5,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Awesome...you know where we are if needed. || (P): Doing well, very little moisture, but it  seems good || (C): I promise you will not get lots of texts but  name  here and wondering how wound is doing? || (P): Good",
+                    "sentimentwords": []
+                }
+            ]
+        },
+        {
+            "commentid": "6",
+            "title": 157,
+            "author": "P",
+            "date": "2017-03-28 16:10",
+            "htmltext": "(P): Oh no..just twisted my ankle || (P): Test || (P):  Test || (P): Test || (P): Good || (P): Test",
+            "systemtopicid": [
+                3
+            ],
+            "sent": [
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Oh no..just twisted my ankle || (P): Test || (P):  Test || (P): Test || (P): Good || (P): Test",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 1.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Oh no..just twisted my ankle || (P): Test || (P):  Test || (P): Test || (P): Good || (P): Test",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 3.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Oh no..just twisted my ankle || (P): Test || (P):  Test || (P): Test || (P): Good || (P): Test",
+                    "sentimentwords": []
+                }
+            ]
+        },
+        {
+            "commentid": "7",
+            "title": 170,
+            "author": "P",
+            "date": "2017-03-29 15:44",
+            "htmltext": "(C): hi || (P): Good || (C):  name  || (P): Response || (C): haven't heard from you yet. how are you? || (P): Not good",
+            "systemtopicid": [],
+            "sent": [
+                {
+                    "linePolarity": 3.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): hi || (P): Good || (C):  name  || (P): Response || (C): haven't heard from you yet. how are you? || (P): Not good",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): hi || (P): Good || (C):  name  || (P): Response || (C): haven't heard from you yet. how are you? || (P): Not good",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": -1.5,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): hi || (P): Good || (C):  name  || (P): Response || (C): haven't heard from you yet. how are you? || (P): Not good",
+                    "sentimentwords": []
+                }
+            ]
+        },
+        {
+            "commentid": "8",
+            "title": 179,
+            "author": "P",
+            "date": "2017-03-29 19:00",
+            "htmltext": "(P): Good || (P): No worries. I think I'm being texted twice because name set up two profiles for me in the practice session. Maybe see if Weltel guy can delete one of them || (C):  name  here. System generated so I am assuming was practice stuff put in ahead of time & getting the pre-visit notification automatically. Not sure why getting texted twice. Thank you for you patience as will be talking with Weltel guy tomorrow. || (P): What is my appointment for? || (P): You are texting me twice || (C): You have an upcoming appointment at March 29 at 11:00 am || (C): You have an upcoming appointment at March 29 at 11:00 am",
+            "systemtopicid": [
+                18,
+                19,
+                23
+            ],
+            "sent": [
+                {
+                    "linePolarity": 3.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Good || (P): No worries. I think I'm being texted twice because name set up two profiles for me in the practice session. Maybe see if Weltel guy can delete one of them || (C):  name  here. System generated so I am assuming was practice stuff put in ahead of time & getting the pre-visit notification automatically. Not sure why getting texted twice. Thank you for you patience as will be talking with Weltel guy tomorrow. || (P): What is my appointment for? || (P): You are texting me twice || (C): You have an upcoming appointment at March 29 at 11:00 am || (C): You have an upcoming appointment at March 29 at 11:00 am",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Good || (P): No worries. I think I'm being texted twice because name set up two profiles for me in the practice session. Maybe see if Weltel guy can delete one of them || (C):  name  here. System generated so I am assuming was practice stuff put in ahead of time & getting the pre-visit notification automatically. Not sure why getting texted twice. Thank you for you patience as will be talking with Weltel guy tomorrow. || (P): What is my appointment for? || (P): You are texting me twice || (C): You have an upcoming appointment at March 29 at 11:00 am || (C): You have an upcoming appointment at March 29 at 11:00 am",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Good || (P): No worries. I think I'm being texted twice because name set up two profiles for me in the practice session. Maybe see if Weltel guy can delete one of them || (C):  name  here. System generated so I am assuming was practice stuff put in ahead of time & getting the pre-visit notification automatically. Not sure why getting texted twice. Thank you for you patience as will be talking with Weltel guy tomorrow. || (P): What is my appointment for? || (P): You are texting me twice || (C): You have an upcoming appointment at March 29 at 11:00 am || (C): You have an upcoming appointment at March 29 at 11:00 am",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 2.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Good || (P): No worries. I think I'm being texted twice because name set up two profiles for me in the practice session. Maybe see if Weltel guy can delete one of them || (C):  name  here. System generated so I am assuming was practice stuff put in ahead of time & getting the pre-visit notification automatically. Not sure why getting texted twice. Thank you for you patience as will be talking with Weltel guy tomorrow. || (P): What is my appointment for? || (P): You are texting me twice || (C): You have an upcoming appointment at March 29 at 11:00 am || (C): You have an upcoming appointment at March 29 at 11:00 am",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": -2.5,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Good || (P): No worries. I think I'm being texted twice because name set up two profiles for me in the practice session. Maybe see if Weltel guy can delete one of them || (C):  name  here. System generated so I am assuming was practice stuff put in ahead of time & getting the pre-visit notification automatically. Not sure why getting texted twice. Thank you for you patience as will be talking with Weltel guy tomorrow. || (P): What is my appointment for? || (P): You are texting me twice || (C): You have an upcoming appointment at March 29 at 11:00 am || (C): You have an upcoming appointment at March 29 at 11:00 am",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 1.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Good || (P): No worries. I think I'm being texted twice because name set up two profiles for me in the practice session. Maybe see if Weltel guy can delete one of them || (C):  name  here. System generated so I am assuming was practice stuff put in ahead of time & getting the pre-visit notification automatically. Not sure why getting texted twice. Thank you for you patience as will be talking with Weltel guy tomorrow. || (P): What is my appointment for? || (P): You are texting me twice || (C): You have an upcoming appointment at March 29 at 11:00 am || (C): You have an upcoming appointment at March 29 at 11:00 am",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Good || (P): No worries. I think I'm being texted twice because name set up two profiles for me in the practice session. Maybe see if Weltel guy can delete one of them || (C):  name  here. System generated so I am assuming was practice stuff put in ahead of time & getting the pre-visit notification automatically. Not sure why getting texted twice. Thank you for you patience as will be talking with Weltel guy tomorrow. || (P): What is my appointment for? || (P): You are texting me twice || (C): You have an upcoming appointment at March 29 at 11:00 am || (C): You have an upcoming appointment at March 29 at 11:00 am",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 6.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Good || (P): No worries. I think I'm being texted twice because name set up two profiles for me in the practice session. Maybe see if Weltel guy can delete one of them || (C):  name  here. System generated so I am assuming was practice stuff put in ahead of time & getting the pre-visit notification automatically. Not sure why getting texted twice. Thank you for you patience as will be talking with Weltel guy tomorrow. || (P): What is my appointment for? || (P): You are texting me twice || (C): You have an upcoming appointment at March 29 at 11:00 am || (C): You have an upcoming appointment at March 29 at 11:00 am",
+                    "sentimentwords": []
+                }
+            ]
+        }
+    ],
+    "sent": [
+        {
+            "linePolarity": 1.1875,
+            "systemtopicid": 1,
+            "systemlabel": " ",
+            "sentid": "1",
+            "sent": "",
+            "sentimentwords": []
+        }
+    ],
+    "topics": [
+        {
+            "topicID": 6,
+            "subtopicID": 24,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Health Information",
+                    "prob": 0.0
+                }
+            ],
+            "topicsentiments": [
+                0,
+                3,
+                0,
+                4,
+                1
+            ]
+        },
+        {
+            "topicID": 6,
+            "subtopicID": 23,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Social",
+                    "prob": 0.0
+                }
+            ],
+            "topicsentiments": [
+                0,
+                3,
+                0,
+                4,
+                1
+            ]
+        },
+        {
+            "topicID": 6,
+            "subtopicID": 22,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Emotional",
+                    "prob": 0.0
+                }
+            ],
+            "topicsentiments": [
+                0,
+                3,
+                0,
+                4,
+                1
+            ]
+        },
+        {
+            "topicID": 6,
+            "subtopicID": 21,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Physical",
+                    "prob": 0.0
+                }
+            ],
+            "topicsentiments": [
+                0,
+                3,
+                0,
+                4,
+                1
+            ]
+        },
+        {
+            "topicID": 5,
+            "subtopicID": 20,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Technical",
+                    "prob": 0.0
+                }
+            ],
+            "topicsentiments": [
+                0,
+                3,
+                0,
+                4,
+                1
+            ]
+        },
+        {
+            "topicID": 5,
+            "subtopicID": 19,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Hospitalizations",
+                    "prob": 0.0
+                }
+            ],
+            "topicsentiments": [
+                0,
+                3,
+                0,
+                4,
+                1
+            ]
+        },
+        {
+            "topicID": 5,
+            "subtopicID": 18,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Outpatient",
+                    "prob": 0.0
+                }
+            ],
+            "topicsentiments": [
+                0,
+                3,
+                0,
+                4,
+                1
+            ]
+        },
+        {
+            "topicID": 4,
+            "subtopicID": 17,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Cultural",
+                    "prob": 0.0
+                }
+            ],
+            "topicsentiments": [
+                0,
+                3,
+                0,
+                4,
+                1
+            ]
+        },
+        {
+            "topicID": 4,
+            "subtopicID": 16,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Friends & Family",
+                    "prob": 0.0
+                }
+            ],
+            "topicsentiments": [
+                0,
+                3,
+                0,
+                4,
+                1
+            ]
+        },
+        {
+            "topicID": 4,
+            "subtopicID": 15,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Social Services",
+                    "prob": 0.0
+                }
+            ],
+            "topicsentiments": [
+                0,
+                3,
+                0,
+                4,
+                1
+            ]
+        },
+        {
+            "topicID": 4,
+            "subtopicID": 14,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Work",
+                    "prob": 0.0
+                }
+            ],
+            "topicsentiments": [
+                0,
+                3,
+                0,
+                4,
+                1
+            ]
+        },
+        {
+            "topicID": 4,
+            "subtopicID": 13,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Housing",
+                    "prob": 0.0
+                }
+            ],
+            "topicsentiments": [
+                0,
+                3,
+                0,
+                4,
+                1
+            ]
+        },
+        {
+            "topicID": 3,
+            "subtopicID": 12,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Substance Use",
+                    "prob": 0.15814172956238517
+                }
+            ],
+            "topicsentiments": [
+                0,
+                3,
+                0,
+                4,
+                1
+            ]
+        },
+        {
+            "topicID": 3,
+            "subtopicID": 11,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Exercise",
+                    "prob": 0.15814172956238517
+                }
+            ],
+            "topicsentiments": [
+                0,
+                3,
+                0,
+                4,
+                1
+            ]
+        },
+        {
+            "topicID": 3,
+            "subtopicID": 10,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Diet / Nutrition",
+                    "prob": 0.15814172956238517
+                }
+            ],
+            "topicsentiments": [
+                0,
+                3,
+                0,
+                4,
+                1
+            ]
+        },
+        {
+            "topicID": 2,
+            "subtopicID": 9,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Counseling",
+                    "prob": 0.15814172956238517
+                }
+            ],
+            "topicsentiments": [
+                0,
+                3,
+                0,
+                4,
+                1
+            ]
+        },
+        {
+            "topicID": 2,
+            "subtopicID": 8,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Physical Therapy",
+                    "prob": 0.15814172956238517
+                }
+            ],
+            "topicsentiments": [
+                0,
+                3,
+                0,
+                4,
+                1
+            ]
+        },
+        {
+            "topicID": 2,
+            "subtopicID": 7,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Device",
+                    "prob": 0.15814172956238517
+                }
+            ],
+            "topicsentiments": [
+                0,
+                3,
+                0,
+                4,
+                1
+            ]
+        },
+        {
+            "topicID": 2,
+            "subtopicID": 6,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Alternative",
+                    "prob": 0.15814172956238517
+                }
+            ],
+            "topicsentiments": [
+                0,
+                3,
+                0,
+                4,
+                1
+            ]
+        },
+        {
+            "topicID": 2,
+            "subtopicID": 5,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Prescriptions",
+                    "prob": 0.15814172956238517
+                }
+            ],
+            "topicsentiments": [
+                0,
+                3,
+                0,
+                4,
+                1
+            ]
+        },
+        {
+            "topicID": 1,
+            "subtopicID": 4,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Imaging",
+                    "prob": 0.15814172956238517
+                }
+            ],
+            "topicsentiments": [
+                0,
+                3,
+                0,
+                4,
+                1
+            ]
+        },
+        {
+            "topicID": 1,
+            "subtopicID": 3,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Laboratory",
+                    "prob": 0.15814172956238517
+                }
+            ],
+            "topicsentiments": [
+                0,
+                3,
+                0,
+                4,
+                1
+            ]
+        },
+        {
+            "topicID": 1,
+            "subtopicID": 2,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Diagnosis",
+                    "prob": 0.15814172956238517
+                }
+            ],
+            "topicsentiments": [
+                0,
+                3,
+                0,
+                4,
+                1
+            ]
+        },
+        {
+            "topicID": 0,
+            "subtopicID": 1,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Mental / Emotional",
+                    "prob": 0.15814172956238517
+                }
+            ],
+            "topicsentiments": [
+                0,
+                3,
+                0,
+                4,
+                1
+            ]
+        },
+        {
+            "topicID": 0,
+            "subtopicID": 0,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Physical",
+                    "prob": 0.15814172956238517
+                }
+            ],
+            "topicsentiments": [
+                0,
+                3,
+                0,
+                4,
+                1
+            ]
+        }
+    ]
+}

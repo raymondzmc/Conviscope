@@ -1,0 +1,1624 @@
+{
+    "totalAuthors": "?",
+    "totalTopics": "25",
+    "totalLines": "18",
+    "commentid": "articleomega_3",
+    "title": "April, 2017",
+    "author": "empty",
+    "date": "April 03, 2017, 05:59 PM",
+    "htmltext": "North Coast Primary Care",
+    "systemtopicid": [],
+    "children": [
+        {
+            "commentid": "0",
+            "title": 182,
+            "author": "P",
+            "date": "2017-04-03 17:59",
+            "htmltext": "(C): Hi  name . This is the  name  using the automatic system from  name . Just signing you up. There will be another text at noon but hopefully just weekly after that. || (C): More results came in and no BV/yeast either. Waiting for the infection ones still. || (P): I'm good || (P): Who is this? || (C): Can I give you a quick call?  name  here. || (P):  I have to go see a doctor, it be nice to find out what the pain is from || (C): Perfect. Thanks  name . || (C): haven't heard from you yet. how are you? || (P): I'm traveling I'll call when I get home || (P): It's manageable I actually had to get T3's off of someone it still feels the same with the T3's do you think I might be able to get some off of you or do || (C): The swabs done first were negative for infection. How is the pain?  name  here.",
+            "systemtopicid": [
+                0,
+                2,
+                7,
+                13,
+                17,
+                24
+            ],
+            "sent": [
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Hi  name . This is the  name  using the automatic system from  name . Just signing you up. There will be another text at noon but hopefully just weekly after that. || (C): More results came in and no BV/yeast either. Waiting for the infection ones still. || (P): I'm good || (P): Who is this? || (C): Can I give you a quick call?  name  here. || (P):  I have to go see a doctor, it be nice to find out what the pain is from || (C): Perfect. Thanks  name . || (C): haven't heard from you yet. how are you? || (P): I'm traveling I'll call when I get home || (P): It's manageable I actually had to get T3's off of someone it still feels the same with the T3's do you think I might be able to get some off of you or do || (C): The swabs done first were negative for infection. How is the pain?  name  here.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 1.5,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Hi  name . This is the  name  using the automatic system from  name . Just signing you up. There will be another text at noon but hopefully just weekly after that. || (C): More results came in and no BV/yeast either. Waiting for the infection ones still. || (P): I'm good || (P): Who is this? || (C): Can I give you a quick call?  name  here. || (P):  I have to go see a doctor, it be nice to find out what the pain is from || (C): Perfect. Thanks  name . || (C): haven't heard from you yet. how are you? || (P): I'm traveling I'll call when I get home || (P): It's manageable I actually had to get T3's off of someone it still feels the same with the T3's do you think I might be able to get some off of you or do || (C): The swabs done first were negative for infection. How is the pain?  name  here.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Hi  name . This is the  name  using the automatic system from  name . Just signing you up. There will be another text at noon but hopefully just weekly after that. || (C): More results came in and no BV/yeast either. Waiting for the infection ones still. || (P): I'm good || (P): Who is this? || (C): Can I give you a quick call?  name  here. || (P):  I have to go see a doctor, it be nice to find out what the pain is from || (C): Perfect. Thanks  name . || (C): haven't heard from you yet. how are you? || (P): I'm traveling I'll call when I get home || (P): It's manageable I actually had to get T3's off of someone it still feels the same with the T3's do you think I might be able to get some off of you or do || (C): The swabs done first were negative for infection. How is the pain?  name  here.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 2.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Hi  name . This is the  name  using the automatic system from  name . Just signing you up. There will be another text at noon but hopefully just weekly after that. || (C): More results came in and no BV/yeast either. Waiting for the infection ones still. || (P): I'm good || (P): Who is this? || (C): Can I give you a quick call?  name  here. || (P):  I have to go see a doctor, it be nice to find out what the pain is from || (C): Perfect. Thanks  name . || (C): haven't heard from you yet. how are you? || (P): I'm traveling I'll call when I get home || (P): It's manageable I actually had to get T3's off of someone it still feels the same with the T3's do you think I might be able to get some off of you or do || (C): The swabs done first were negative for infection. How is the pain?  name  here.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Hi  name . This is the  name  using the automatic system from  name . Just signing you up. There will be another text at noon but hopefully just weekly after that. || (C): More results came in and no BV/yeast either. Waiting for the infection ones still. || (P): I'm good || (P): Who is this? || (C): Can I give you a quick call?  name  here. || (P):  I have to go see a doctor, it be nice to find out what the pain is from || (C): Perfect. Thanks  name . || (C): haven't heard from you yet. how are you? || (P): I'm traveling I'll call when I get home || (P): It's manageable I actually had to get T3's off of someone it still feels the same with the T3's do you think I might be able to get some off of you or do || (C): The swabs done first were negative for infection. How is the pain?  name  here.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": -4.5,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Hi  name . This is the  name  using the automatic system from  name . Just signing you up. There will be another text at noon but hopefully just weekly after that. || (C): More results came in and no BV/yeast either. Waiting for the infection ones still. || (P): I'm good || (P): Who is this? || (C): Can I give you a quick call?  name  here. || (P):  I have to go see a doctor, it be nice to find out what the pain is from || (C): Perfect. Thanks  name . || (C): haven't heard from you yet. how are you? || (P): I'm traveling I'll call when I get home || (P): It's manageable I actually had to get T3's off of someone it still feels the same with the T3's do you think I might be able to get some off of you or do || (C): The swabs done first were negative for infection. How is the pain?  name  here.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 3.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Hi  name . This is the  name  using the automatic system from  name . Just signing you up. There will be another text at noon but hopefully just weekly after that. || (C): More results came in and no BV/yeast either. Waiting for the infection ones still. || (P): I'm good || (P): Who is this? || (C): Can I give you a quick call?  name  here. || (P):  I have to go see a doctor, it be nice to find out what the pain is from || (C): Perfect. Thanks  name . || (C): haven't heard from you yet. how are you? || (P): I'm traveling I'll call when I get home || (P): It's manageable I actually had to get T3's off of someone it still feels the same with the T3's do you think I might be able to get some off of you or do || (C): The swabs done first were negative for infection. How is the pain?  name  here.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Hi  name . This is the  name  using the automatic system from  name . Just signing you up. There will be another text at noon but hopefully just weekly after that. || (C): More results came in and no BV/yeast either. Waiting for the infection ones still. || (P): I'm good || (P): Who is this? || (C): Can I give you a quick call?  name  here. || (P):  I have to go see a doctor, it be nice to find out what the pain is from || (C): Perfect. Thanks  name . || (C): haven't heard from you yet. how are you? || (P): I'm traveling I'll call when I get home || (P): It's manageable I actually had to get T3's off of someone it still feels the same with the T3's do you think I might be able to get some off of you or do || (C): The swabs done first were negative for infection. How is the pain?  name  here.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Hi  name . This is the  name  using the automatic system from  name . Just signing you up. There will be another text at noon but hopefully just weekly after that. || (C): More results came in and no BV/yeast either. Waiting for the infection ones still. || (P): I'm good || (P): Who is this? || (C): Can I give you a quick call?  name  here. || (P):  I have to go see a doctor, it be nice to find out what the pain is from || (C): Perfect. Thanks  name . || (C): haven't heard from you yet. how are you? || (P): I'm traveling I'll call when I get home || (P): It's manageable I actually had to get T3's off of someone it still feels the same with the T3's do you think I might be able to get some off of you or do || (C): The swabs done first were negative for infection. How is the pain?  name  here.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": -1.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Hi  name . This is the  name  using the automatic system from  name . Just signing you up. There will be another text at noon but hopefully just weekly after that. || (C): More results came in and no BV/yeast either. Waiting for the infection ones still. || (P): I'm good || (P): Who is this? || (C): Can I give you a quick call?  name  here. || (P):  I have to go see a doctor, it be nice to find out what the pain is from || (C): Perfect. Thanks  name . || (C): haven't heard from you yet. how are you? || (P): I'm traveling I'll call when I get home || (P): It's manageable I actually had to get T3's off of someone it still feels the same with the T3's do you think I might be able to get some off of you or do || (C): The swabs done first were negative for infection. How is the pain?  name  here.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Hi  name . This is the  name  using the automatic system from  name . Just signing you up. There will be another text at noon but hopefully just weekly after that. || (C): More results came in and no BV/yeast either. Waiting for the infection ones still. || (P): I'm good || (P): Who is this? || (C): Can I give you a quick call?  name  here. || (P):  I have to go see a doctor, it be nice to find out what the pain is from || (C): Perfect. Thanks  name . || (C): haven't heard from you yet. how are you? || (P): I'm traveling I'll call when I get home || (P): It's manageable I actually had to get T3's off of someone it still feels the same with the T3's do you think I might be able to get some off of you or do || (C): The swabs done first were negative for infection. How is the pain?  name  here.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Hi  name . This is the  name  using the automatic system from  name . Just signing you up. There will be another text at noon but hopefully just weekly after that. || (C): More results came in and no BV/yeast either. Waiting for the infection ones still. || (P): I'm good || (P): Who is this? || (C): Can I give you a quick call?  name  here. || (P):  I have to go see a doctor, it be nice to find out what the pain is from || (C): Perfect. Thanks  name . || (C): haven't heard from you yet. how are you? || (P): I'm traveling I'll call when I get home || (P): It's manageable I actually had to get T3's off of someone it still feels the same with the T3's do you think I might be able to get some off of you or do || (C): The swabs done first were negative for infection. How is the pain?  name  here.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Hi  name . This is the  name  using the automatic system from  name . Just signing you up. There will be another text at noon but hopefully just weekly after that. || (C): More results came in and no BV/yeast either. Waiting for the infection ones still. || (P): I'm good || (P): Who is this? || (C): Can I give you a quick call?  name  here. || (P):  I have to go see a doctor, it be nice to find out what the pain is from || (C): Perfect. Thanks  name . || (C): haven't heard from you yet. how are you? || (P): I'm traveling I'll call when I get home || (P): It's manageable I actually had to get T3's off of someone it still feels the same with the T3's do you think I might be able to get some off of you or do || (C): The swabs done first were negative for infection. How is the pain?  name  here.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.25,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Hi  name . This is the  name  using the automatic system from  name . Just signing you up. There will be another text at noon but hopefully just weekly after that. || (C): More results came in and no BV/yeast either. Waiting for the infection ones still. || (P): I'm good || (P): Who is this? || (C): Can I give you a quick call?  name  here. || (P):  I have to go see a doctor, it be nice to find out what the pain is from || (C): Perfect. Thanks  name . || (C): haven't heard from you yet. how are you? || (P): I'm traveling I'll call when I get home || (P): It's manageable I actually had to get T3's off of someone it still feels the same with the T3's do you think I might be able to get some off of you or do || (C): The swabs done first were negative for infection. How is the pain?  name  here.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": -1.5,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Hi  name . This is the  name  using the automatic system from  name . Just signing you up. There will be another text at noon but hopefully just weekly after that. || (C): More results came in and no BV/yeast either. Waiting for the infection ones still. || (P): I'm good || (P): Who is this? || (C): Can I give you a quick call?  name  here. || (P):  I have to go see a doctor, it be nice to find out what the pain is from || (C): Perfect. Thanks  name . || (C): haven't heard from you yet. how are you? || (P): I'm traveling I'll call when I get home || (P): It's manageable I actually had to get T3's off of someone it still feels the same with the T3's do you think I might be able to get some off of you or do || (C): The swabs done first were negative for infection. How is the pain?  name  here.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Hi  name . This is the  name  using the automatic system from  name . Just signing you up. There will be another text at noon but hopefully just weekly after that. || (C): More results came in and no BV/yeast either. Waiting for the infection ones still. || (P): I'm good || (P): Who is this? || (C): Can I give you a quick call?  name  here. || (P):  I have to go see a doctor, it be nice to find out what the pain is from || (C): Perfect. Thanks  name . || (C): haven't heard from you yet. how are you? || (P): I'm traveling I'll call when I get home || (P): It's manageable I actually had to get T3's off of someone it still feels the same with the T3's do you think I might be able to get some off of you or do || (C): The swabs done first were negative for infection. How is the pain?  name  here.",
+                    "sentimentwords": []
+                }
+            ]
+        },
+        {
+            "commentid": "1",
+            "title": 194,
+            "author": "P",
+            "date": "2017-04-03 18:28",
+            "htmltext": "(P): two || (C): Did you get a single text 'how are you?' or two? || (P): Good",
+            "systemtopicid": [
+                24
+            ],
+            "sent": [
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): two || (C): Did you get a single text 'how are you?' or two? || (P): Good",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): two || (C): Did you get a single text 'how are you?' or two? || (P): Good",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 3.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): two || (C): Did you get a single text 'how are you?' or two? || (P): Good",
+                    "sentimentwords": []
+                }
+            ]
+        },
+        {
+            "commentid": "2",
+            "title": 211,
+            "author": "P",
+            "date": "2017-04-03 19:03",
+            "htmltext": "(C): Perfect. This is the  name  and the texts were from the automatic system. Will get another one at noon and then just weekly. Thanks || (P): I am good just got home. This morning how are u || (C): haven't heard from you yet. how are you?",
+            "systemtopicid": [
+                7,
+                13
+            ],
+            "sent": [
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Perfect. This is the  name  and the texts were from the automatic system. Will get another one at noon and then just weekly. Thanks || (P): I am good just got home. This morning how are u || (C): haven't heard from you yet. how are you?",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 1.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Perfect. This is the  name  and the texts were from the automatic system. Will get another one at noon and then just weekly. Thanks || (P): I am good just got home. This morning how are u || (C): haven't heard from you yet. how are you?",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.5,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Perfect. This is the  name  and the texts were from the automatic system. Will get another one at noon and then just weekly. Thanks || (P): I am good just got home. This morning how are u || (C): haven't heard from you yet. how are you?",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 4.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Perfect. This is the  name  and the texts were from the automatic system. Will get another one at noon and then just weekly. Thanks || (P): I am good just got home. This morning how are u || (C): haven't heard from you yet. how are you?",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Perfect. This is the  name  and the texts were from the automatic system. Will get another one at noon and then just weekly. Thanks || (P): I am good just got home. This morning how are u || (C): haven't heard from you yet. how are you?",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Perfect. This is the  name  and the texts were from the automatic system. Will get another one at noon and then just weekly. Thanks || (P): I am good just got home. This morning how are u || (C): haven't heard from you yet. how are you?",
+                    "sentimentwords": []
+                }
+            ]
+        },
+        {
+            "commentid": "3",
+            "title": 238,
+            "author": "P",
+            "date": "2017-04-05 19:00",
+            "htmltext": "(P): Really stressed || (C): :) || (C): Can I help?  name  here. || (P): Just knowing you're out there helps thanks!",
+            "systemtopicid": [
+                16
+            ],
+            "sent": [
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Really stressed || (C): :) || (C): Can I help?  name  here. || (P): Just knowing you're out there helps thanks!",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Really stressed || (C): :) || (C): Can I help?  name  here. || (P): Just knowing you're out there helps thanks!",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 4.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Really stressed || (C): :) || (C): Can I help?  name  here. || (P): Just knowing you're out there helps thanks!",
+                    "sentimentwords": []
+                }
+            ]
+        },
+        {
+            "commentid": "4",
+            "title": 240,
+            "author": "P",
+            "date": "2017-04-05 19:00",
+            "htmltext": "(P): I'm sorry.  But who are you ? || (C): haven't heard from you yet. how are you? || (C): undefined?uname=nameDev",
+            "systemtopicid": [
+                24
+            ],
+            "sent": [
+                {
+                    "linePolarity": -4.5,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): I'm sorry.  But who are you ? || (C): haven't heard from you yet. how are you? || (C): undefined?uname=nameDev",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): I'm sorry.  But who are you ? || (C): haven't heard from you yet. how are you? || (C): undefined?uname=nameDev",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): I'm sorry.  But who are you ? || (C): haven't heard from you yet. how are you? || (C): undefined?uname=nameDev",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): I'm sorry.  But who are you ? || (C): haven't heard from you yet. how are you? || (C): undefined?uname=nameDev",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): I'm sorry.  But who are you ? || (C): haven't heard from you yet. how are you? || (C): undefined?uname=nameDev",
+                    "sentimentwords": []
+                }
+            ]
+        },
+        {
+            "commentid": "5",
+            "title": 281,
+            "author": "P",
+            "date": "2017-04-12 19:01",
+            "htmltext": "(P): I got my mouse! I am doing better thanks. Just a few nightmares but no more panic attacks || (C):  name  here. You have mouse trauma! || (P): So stressed! There's a mouse in my house",
+            "systemtopicid": [
+                13
+            ],
+            "sent": [
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): I got my mouse! I am doing better thanks. Just a few nightmares but no more panic attacks || (C):  name  here. You have mouse trauma! || (P): So stressed! There's a mouse in my house",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 1.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): I got my mouse! I am doing better thanks. Just a few nightmares but no more panic attacks || (C):  name  here. You have mouse trauma! || (P): So stressed! There's a mouse in my house",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": -3.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): I got my mouse! I am doing better thanks. Just a few nightmares but no more panic attacks || (C):  name  here. You have mouse trauma! || (P): So stressed! There's a mouse in my house",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": -6.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): I got my mouse! I am doing better thanks. Just a few nightmares but no more panic attacks || (C):  name  here. You have mouse trauma! || (P): So stressed! There's a mouse in my house",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): I got my mouse! I am doing better thanks. Just a few nightmares but no more panic attacks || (C):  name  here. You have mouse trauma! || (P): So stressed! There's a mouse in my house",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): I got my mouse! I am doing better thanks. Just a few nightmares but no more panic attacks || (C):  name  here. You have mouse trauma! || (P): So stressed! There's a mouse in my house",
+                    "sentimentwords": []
+                }
+            ]
+        },
+        {
+            "commentid": "6",
+            "title": 284,
+            "author": "P",
+            "date": "2017-04-12 19:01",
+            "htmltext": "(C):  name  here. That was the weekly automatic message that you got! Hope you are having a great trip. || (C): haven't heard from you yet. how are you? || (P): Very well. ",
+            "systemtopicid": [],
+            "sent": [
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C):  name  here. That was the weekly automatic message that you got! Hope you are having a great trip. || (C): haven't heard from you yet. how are you? || (P): Very well. ",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 3.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C):  name  here. That was the weekly automatic message that you got! Hope you are having a great trip. || (C): haven't heard from you yet. how are you? || (P): Very well. ",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 4.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C):  name  here. That was the weekly automatic message that you got! Hope you are having a great trip. || (C): haven't heard from you yet. how are you? || (P): Very well. ",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C):  name  here. That was the weekly automatic message that you got! Hope you are having a great trip. || (C): haven't heard from you yet. how are you? || (P): Very well. ",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C):  name  here. That was the weekly automatic message that you got! Hope you are having a great trip. || (C): haven't heard from you yet. how are you? || (P): Very well. ",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 1.2,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C):  name  here. That was the weekly automatic message that you got! Hope you are having a great trip. || (C): haven't heard from you yet. how are you? || (P): Very well. ",
+                    "sentimentwords": []
+                }
+            ]
+        },
+        {
+            "commentid": "7",
+            "title": 304,
+            "author": "P",
+            "date": "2017-04-17 20:08",
+            "htmltext": "(P): 122 || (C): Test || (P): Test6",
+            "systemtopicid": [
+                3
+            ],
+            "sent": [
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): 122 || (C): Test || (P): Test6",
+                    "sentimentwords": []
+                }
+            ]
+        },
+        {
+            "commentid": "8",
+            "title": 318,
+            "author": "P",
+            "date": "2017-04-18 18:21",
+            "htmltext": "(C): haven't heard from you yet. how are you? || (P):  kind of scratchy every time I have something with gluten/wheat in it. I've been trying to go gluten free and I have noticed a dramatic change. || (P): I would like to get an appointment to test for allergies. I'm thinking I have developed a gluten intolerance and suspect it could be more. My mouth feels",
+            "systemtopicid": [
+                3,
+                18,
+                23,
+                24
+            ],
+            "sent": [
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): haven't heard from you yet. how are you? || (P):  kind of scratchy every time I have something with gluten/wheat in it. I've been trying to go gluten free and I have noticed a dramatic change. || (P): I would like to get an appointment to test for allergies. I'm thinking I have developed a gluten intolerance and suspect it could be more. My mouth feels",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): haven't heard from you yet. how are you? || (P):  kind of scratchy every time I have something with gluten/wheat in it. I've been trying to go gluten free and I have noticed a dramatic change. || (P): I would like to get an appointment to test for allergies. I'm thinking I have developed a gluten intolerance and suspect it could be more. My mouth feels",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): haven't heard from you yet. how are you? || (P):  kind of scratchy every time I have something with gluten/wheat in it. I've been trying to go gluten free and I have noticed a dramatic change. || (P): I would like to get an appointment to test for allergies. I'm thinking I have developed a gluten intolerance and suspect it could be more. My mouth feels",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 4.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): haven't heard from you yet. how are you? || (P):  kind of scratchy every time I have something with gluten/wheat in it. I've been trying to go gluten free and I have noticed a dramatic change. || (P): I would like to get an appointment to test for allergies. I'm thinking I have developed a gluten intolerance and suspect it could be more. My mouth feels",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 1.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): haven't heard from you yet. how are you? || (P):  kind of scratchy every time I have something with gluten/wheat in it. I've been trying to go gluten free and I have noticed a dramatic change. || (P): I would like to get an appointment to test for allergies. I'm thinking I have developed a gluten intolerance and suspect it could be more. My mouth feels",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": -4.5,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): haven't heard from you yet. how are you? || (P):  kind of scratchy every time I have something with gluten/wheat in it. I've been trying to go gluten free and I have noticed a dramatic change. || (P): I would like to get an appointment to test for allergies. I'm thinking I have developed a gluten intolerance and suspect it could be more. My mouth feels",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): haven't heard from you yet. how are you? || (P):  kind of scratchy every time I have something with gluten/wheat in it. I've been trying to go gluten free and I have noticed a dramatic change. || (P): I would like to get an appointment to test for allergies. I'm thinking I have developed a gluten intolerance and suspect it could be more. My mouth feels",
+                    "sentimentwords": []
+                }
+            ]
+        },
+        {
+            "commentid": "9",
+            "title": 338,
+            "author": "P",
+            "date": "2017-04-18 23:57",
+            "htmltext": "(C): Keep those germs to your end of the building! || (P): Ok, but I am spreading my anxiety everywhere. I'm telling you I have Mouse  name . || (C): As long as it is not Hanta virus. || (P): I think I need therapy. What do you propose? || (P): I feel so sick, think I'm going to puke.",
+            "systemtopicid": [
+                1,
+                8
+            ],
+            "sent": [
+                {
+                    "linePolarity": -3.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Keep those germs to your end of the building! || (P): Ok, but I am spreading my anxiety everywhere. I'm telling you I have Mouse  name . || (C): As long as it is not Hanta virus. || (P): I think I need therapy. What do you propose? || (P): I feel so sick, think I'm going to puke.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": -3.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Keep those germs to your end of the building! || (P): Ok, but I am spreading my anxiety everywhere. I'm telling you I have Mouse  name . || (C): As long as it is not Hanta virus. || (P): I think I need therapy. What do you propose? || (P): I feel so sick, think I'm going to puke.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Keep those germs to your end of the building! || (P): Ok, but I am spreading my anxiety everywhere. I'm telling you I have Mouse  name . || (C): As long as it is not Hanta virus. || (P): I think I need therapy. What do you propose? || (P): I feel so sick, think I'm going to puke.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": -1.5,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Keep those germs to your end of the building! || (P): Ok, but I am spreading my anxiety everywhere. I'm telling you I have Mouse  name . || (C): As long as it is not Hanta virus. || (P): I think I need therapy. What do you propose? || (P): I feel so sick, think I'm going to puke.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Keep those germs to your end of the building! || (P): Ok, but I am spreading my anxiety everywhere. I'm telling you I have Mouse  name . || (C): As long as it is not Hanta virus. || (P): I think I need therapy. What do you propose? || (P): I feel so sick, think I'm going to puke.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Keep those germs to your end of the building! || (P): Ok, but I am spreading my anxiety everywhere. I'm telling you I have Mouse  name . || (C): As long as it is not Hanta virus. || (P): I think I need therapy. What do you propose? || (P): I feel so sick, think I'm going to puke.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": -6.299999999999999,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Keep those germs to your end of the building! || (P): Ok, but I am spreading my anxiety everywhere. I'm telling you I have Mouse  name . || (C): As long as it is not Hanta virus. || (P): I think I need therapy. What do you propose? || (P): I feel so sick, think I'm going to puke.",
+                    "sentimentwords": []
+                }
+            ]
+        },
+        {
+            "commentid": "10",
+            "title": 344,
+            "author": "P",
+            "date": "2017-04-19 19:01",
+            "htmltext": "(C): Are you doing okay? || (P): Sorry I had to rebook, I actually just lost my job but health wise I was wondering if you could make an appointment to the dr uptown for me? If not I thi || (P): nk I see you on the 24th || (C): I am so sorry. See you then! Let me know if need a doc to see you. || (P): Yes I was hoping you can help me get an appointment up town? || (P): 5pm tomorrow would work please || (P): Skidegate or whichever is faster right now || (C): Perfect. The door will be locked but I will be there so just ring the doorbell. I will also keep an eye out. Skidegate Health center at 5:00. || (P): It'd be nice to have an appointment with you || (P): K Haawa || (C): Do you prefer QC or Skidegate? || (C): We could do Skidegate tomorrow at 8:30 am or 5:00 PM or Thursday 11:00, 11:30 or 12:00?",
+            "systemtopicid": [
+                14,
+                18
+            ],
+            "sent": [
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Are you doing okay? || (P): Sorry I had to rebook, I actually just lost my job but health wise I was wondering if you could make an appointment to the dr uptown for me? If not I thi || (P): nk I see you on the 24th || (C): I am so sorry. See you then! Let me know if need a doc to see you. || (P): Yes I was hoping you can help me get an appointment up town? || (P): 5pm tomorrow would work please || (P): Skidegate or whichever is faster right now || (C): Perfect. The door will be locked but I will be there so just ring the doorbell. I will also keep an eye out. Skidegate Health center at 5:00. || (P): It'd be nice to have an appointment with you || (P): K Haawa || (C): Do you prefer QC or Skidegate? || (C): We could do Skidegate tomorrow at 8:30 am or 5:00 PM or Thursday 11:00, 11:30 or 12:00?",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Are you doing okay? || (P): Sorry I had to rebook, I actually just lost my job but health wise I was wondering if you could make an appointment to the dr uptown for me? If not I thi || (P): nk I see you on the 24th || (C): I am so sorry. See you then! Let me know if need a doc to see you. || (P): Yes I was hoping you can help me get an appointment up town? || (P): 5pm tomorrow would work please || (P): Skidegate or whichever is faster right now || (C): Perfect. The door will be locked but I will be there so just ring the doorbell. I will also keep an eye out. Skidegate Health center at 5:00. || (P): It'd be nice to have an appointment with you || (P): K Haawa || (C): Do you prefer QC or Skidegate? || (C): We could do Skidegate tomorrow at 8:30 am or 5:00 PM or Thursday 11:00, 11:30 or 12:00?",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": -3.1499999999999995,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Are you doing okay? || (P): Sorry I had to rebook, I actually just lost my job but health wise I was wondering if you could make an appointment to the dr uptown for me? If not I thi || (P): nk I see you on the 24th || (C): I am so sorry. See you then! Let me know if need a doc to see you. || (P): Yes I was hoping you can help me get an appointment up town? || (P): 5pm tomorrow would work please || (P): Skidegate or whichever is faster right now || (C): Perfect. The door will be locked but I will be there so just ring the doorbell. I will also keep an eye out. Skidegate Health center at 5:00. || (P): It'd be nice to have an appointment with you || (P): K Haawa || (C): Do you prefer QC or Skidegate? || (C): We could do Skidegate tomorrow at 8:30 am or 5:00 PM or Thursday 11:00, 11:30 or 12:00?",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Are you doing okay? || (P): Sorry I had to rebook, I actually just lost my job but health wise I was wondering if you could make an appointment to the dr uptown for me? If not I thi || (P): nk I see you on the 24th || (C): I am so sorry. See you then! Let me know if need a doc to see you. || (P): Yes I was hoping you can help me get an appointment up town? || (P): 5pm tomorrow would work please || (P): Skidegate or whichever is faster right now || (C): Perfect. The door will be locked but I will be there so just ring the doorbell. I will also keep an eye out. Skidegate Health center at 5:00. || (P): It'd be nice to have an appointment with you || (P): K Haawa || (C): Do you prefer QC or Skidegate? || (C): We could do Skidegate tomorrow at 8:30 am or 5:00 PM or Thursday 11:00, 11:30 or 12:00?",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Are you doing okay? || (P): Sorry I had to rebook, I actually just lost my job but health wise I was wondering if you could make an appointment to the dr uptown for me? If not I thi || (P): nk I see you on the 24th || (C): I am so sorry. See you then! Let me know if need a doc to see you. || (P): Yes I was hoping you can help me get an appointment up town? || (P): 5pm tomorrow would work please || (P): Skidegate or whichever is faster right now || (C): Perfect. The door will be locked but I will be there so just ring the doorbell. I will also keep an eye out. Skidegate Health center at 5:00. || (P): It'd be nice to have an appointment with you || (P): K Haawa || (C): Do you prefer QC or Skidegate? || (C): We could do Skidegate tomorrow at 8:30 am or 5:00 PM or Thursday 11:00, 11:30 or 12:00?",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Are you doing okay? || (P): Sorry I had to rebook, I actually just lost my job but health wise I was wondering if you could make an appointment to the dr uptown for me? If not I thi || (P): nk I see you on the 24th || (C): I am so sorry. See you then! Let me know if need a doc to see you. || (P): Yes I was hoping you can help me get an appointment up town? || (P): 5pm tomorrow would work please || (P): Skidegate or whichever is faster right now || (C): Perfect. The door will be locked but I will be there so just ring the doorbell. I will also keep an eye out. Skidegate Health center at 5:00. || (P): It'd be nice to have an appointment with you || (P): K Haawa || (C): Do you prefer QC or Skidegate? || (C): We could do Skidegate tomorrow at 8:30 am or 5:00 PM or Thursday 11:00, 11:30 or 12:00?",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 2.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Are you doing okay? || (P): Sorry I had to rebook, I actually just lost my job but health wise I was wondering if you could make an appointment to the dr uptown for me? If not I thi || (P): nk I see you on the 24th || (C): I am so sorry. See you then! Let me know if need a doc to see you. || (P): Yes I was hoping you can help me get an appointment up town? || (P): 5pm tomorrow would work please || (P): Skidegate or whichever is faster right now || (C): Perfect. The door will be locked but I will be there so just ring the doorbell. I will also keep an eye out. Skidegate Health center at 5:00. || (P): It'd be nice to have an appointment with you || (P): K Haawa || (C): Do you prefer QC or Skidegate? || (C): We could do Skidegate tomorrow at 8:30 am or 5:00 PM or Thursday 11:00, 11:30 or 12:00?",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 2.8,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Are you doing okay? || (P): Sorry I had to rebook, I actually just lost my job but health wise I was wondering if you could make an appointment to the dr uptown for me? If not I thi || (P): nk I see you on the 24th || (C): I am so sorry. See you then! Let me know if need a doc to see you. || (P): Yes I was hoping you can help me get an appointment up town? || (P): 5pm tomorrow would work please || (P): Skidegate or whichever is faster right now || (C): Perfect. The door will be locked but I will be there so just ring the doorbell. I will also keep an eye out. Skidegate Health center at 5:00. || (P): It'd be nice to have an appointment with you || (P): K Haawa || (C): Do you prefer QC or Skidegate? || (C): We could do Skidegate tomorrow at 8:30 am or 5:00 PM or Thursday 11:00, 11:30 or 12:00?",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Are you doing okay? || (P): Sorry I had to rebook, I actually just lost my job but health wise I was wondering if you could make an appointment to the dr uptown for me? If not I thi || (P): nk I see you on the 24th || (C): I am so sorry. See you then! Let me know if need a doc to see you. || (P): Yes I was hoping you can help me get an appointment up town? || (P): 5pm tomorrow would work please || (P): Skidegate or whichever is faster right now || (C): Perfect. The door will be locked but I will be there so just ring the doorbell. I will also keep an eye out. Skidegate Health center at 5:00. || (P): It'd be nice to have an appointment with you || (P): K Haawa || (C): Do you prefer QC or Skidegate? || (C): We could do Skidegate tomorrow at 8:30 am or 5:00 PM or Thursday 11:00, 11:30 or 12:00?",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Are you doing okay? || (P): Sorry I had to rebook, I actually just lost my job but health wise I was wondering if you could make an appointment to the dr uptown for me? If not I thi || (P): nk I see you on the 24th || (C): I am so sorry. See you then! Let me know if need a doc to see you. || (P): Yes I was hoping you can help me get an appointment up town? || (P): 5pm tomorrow would work please || (P): Skidegate or whichever is faster right now || (C): Perfect. The door will be locked but I will be there so just ring the doorbell. I will also keep an eye out. Skidegate Health center at 5:00. || (P): It'd be nice to have an appointment with you || (P): K Haawa || (C): Do you prefer QC or Skidegate? || (C): We could do Skidegate tomorrow at 8:30 am or 5:00 PM or Thursday 11:00, 11:30 or 12:00?",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 2.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Are you doing okay? || (P): Sorry I had to rebook, I actually just lost my job but health wise I was wondering if you could make an appointment to the dr uptown for me? If not I thi || (P): nk I see you on the 24th || (C): I am so sorry. See you then! Let me know if need a doc to see you. || (P): Yes I was hoping you can help me get an appointment up town? || (P): 5pm tomorrow would work please || (P): Skidegate or whichever is faster right now || (C): Perfect. The door will be locked but I will be there so just ring the doorbell. I will also keep an eye out. Skidegate Health center at 5:00. || (P): It'd be nice to have an appointment with you || (P): K Haawa || (C): Do you prefer QC or Skidegate? || (C): We could do Skidegate tomorrow at 8:30 am or 5:00 PM or Thursday 11:00, 11:30 or 12:00?",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Are you doing okay? || (P): Sorry I had to rebook, I actually just lost my job but health wise I was wondering if you could make an appointment to the dr uptown for me? If not I thi || (P): nk I see you on the 24th || (C): I am so sorry. See you then! Let me know if need a doc to see you. || (P): Yes I was hoping you can help me get an appointment up town? || (P): 5pm tomorrow would work please || (P): Skidegate or whichever is faster right now || (C): Perfect. The door will be locked but I will be there so just ring the doorbell. I will also keep an eye out. Skidegate Health center at 5:00. || (P): It'd be nice to have an appointment with you || (P): K Haawa || (C): Do you prefer QC or Skidegate? || (C): We could do Skidegate tomorrow at 8:30 am or 5:00 PM or Thursday 11:00, 11:30 or 12:00?",
+                    "sentimentwords": []
+                }
+            ]
+        },
+        {
+            "commentid": "11",
+            "title": 371,
+            "author": "P",
+            "date": "2017-04-19 22:07",
+            "htmltext": "(C): haven't heard from you yet. how are you? || (C): haven't heard from you yet. how are you? || (C): Everything OK? || (C): k || (C): Hi! You have been registered as an user on the Weltel platform",
+            "systemtopicid": [
+                23,
+                24
+            ],
+            "sent": [
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): haven't heard from you yet. how are you? || (C): haven't heard from you yet. how are you? || (C): Everything OK? || (C): k || (C): Hi! You have been registered as an user on the Weltel platform",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): haven't heard from you yet. how are you? || (C): haven't heard from you yet. how are you? || (C): Everything OK? || (C): k || (C): Hi! You have been registered as an user on the Weltel platform",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): haven't heard from you yet. how are you? || (C): haven't heard from you yet. how are you? || (C): Everything OK? || (C): k || (C): Hi! You have been registered as an user on the Weltel platform",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): haven't heard from you yet. how are you? || (C): haven't heard from you yet. how are you? || (C): Everything OK? || (C): k || (C): Hi! You have been registered as an user on the Weltel platform",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): haven't heard from you yet. how are you? || (C): haven't heard from you yet. how are you? || (C): Everything OK? || (C): k || (C): Hi! You have been registered as an user on the Weltel platform",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): haven't heard from you yet. how are you? || (C): haven't heard from you yet. how are you? || (C): Everything OK? || (C): k || (C): Hi! You have been registered as an user on the Weltel platform",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): haven't heard from you yet. how are you? || (C): haven't heard from you yet. how are you? || (C): Everything OK? || (C): k || (C): Hi! You have been registered as an user on the Weltel platform",
+                    "sentimentwords": []
+                }
+            ]
+        },
+        {
+            "commentid": "12",
+            "title": 415,
+            "author": "P",
+            "date": "2017-04-24 19:01",
+            "htmltext": "(C): Will be able to get more info to Dr.  name . Thanks. I am sorry to hear not doing well. || (C): Welcome. QC nurses! || (P): Dr  name  - I don't think I can wait 3 years for my knee op. || (C): One of the nurses here. Are you having worse symptoms? || (P): The pain in my knee is increasing but it also seems to be bothering my hip and lower back. 3 years to wait for dr smith seems like too long. || (P): Still doing ok and I am managing - not an emergency || (C): I won't bug you anymore unless you text but I have notified Dr.  name . Do you feel would be better to go through Dr.  name  as quicker? || (C): Dr.  name  likely won't get message until tomorrow. || (C): haven't heard from you yet. how are you? || (P): I received your message- this is awesome || (P): No hurry- just wish dr smith could see me earlier than the 3 year wait - thanks for responding || (C): missed a couple. You are correct. 3 years is completely ridiculous (my words)!",
+            "systemtopicid": [
+                0,
+                2,
+                19,
+                21
+            ],
+            "sent": [
+                {
+                    "linePolarity": 2.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Will be able to get more info to Dr.  name . Thanks. I am sorry to hear not doing well. || (C): Welcome. QC nurses! || (P): Dr  name  - I don't think I can wait 3 years for my knee op. || (C): One of the nurses here. Are you having worse symptoms? || (P): The pain in my knee is increasing but it also seems to be bothering my hip and lower back. 3 years to wait for dr smith seems like too long. || (P): Still doing ok and I am managing - not an emergency || (C): I won't bug you anymore unless you text but I have notified Dr.  name . Do you feel would be better to go through Dr.  name  as quicker? || (C): Dr.  name  likely won't get message until tomorrow. || (C): haven't heard from you yet. how are you? || (P): I received your message- this is awesome || (P): No hurry- just wish dr smith could see me earlier than the 3 year wait - thanks for responding || (C): missed a couple. You are correct. 3 years is completely ridiculous (my words)!",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Will be able to get more info to Dr.  name . Thanks. I am sorry to hear not doing well. || (C): Welcome. QC nurses! || (P): Dr  name  - I don't think I can wait 3 years for my knee op. || (C): One of the nurses here. Are you having worse symptoms? || (P): The pain in my knee is increasing but it also seems to be bothering my hip and lower back. 3 years to wait for dr smith seems like too long. || (P): Still doing ok and I am managing - not an emergency || (C): I won't bug you anymore unless you text but I have notified Dr.  name . Do you feel would be better to go through Dr.  name  as quicker? || (C): Dr.  name  likely won't get message until tomorrow. || (C): haven't heard from you yet. how are you? || (P): I received your message- this is awesome || (P): No hurry- just wish dr smith could see me earlier than the 3 year wait - thanks for responding || (C): missed a couple. You are correct. 3 years is completely ridiculous (my words)!",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": -9.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Will be able to get more info to Dr.  name . Thanks. I am sorry to hear not doing well. || (C): Welcome. QC nurses! || (P): Dr  name  - I don't think I can wait 3 years for my knee op. || (C): One of the nurses here. Are you having worse symptoms? || (P): The pain in my knee is increasing but it also seems to be bothering my hip and lower back. 3 years to wait for dr smith seems like too long. || (P): Still doing ok and I am managing - not an emergency || (C): I won't bug you anymore unless you text but I have notified Dr.  name . Do you feel would be better to go through Dr.  name  as quicker? || (C): Dr.  name  likely won't get message until tomorrow. || (C): haven't heard from you yet. how are you? || (P): I received your message- this is awesome || (P): No hurry- just wish dr smith could see me earlier than the 3 year wait - thanks for responding || (C): missed a couple. You are correct. 3 years is completely ridiculous (my words)!",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Will be able to get more info to Dr.  name . Thanks. I am sorry to hear not doing well. || (C): Welcome. QC nurses! || (P): Dr  name  - I don't think I can wait 3 years for my knee op. || (C): One of the nurses here. Are you having worse symptoms? || (P): The pain in my knee is increasing but it also seems to be bothering my hip and lower back. 3 years to wait for dr smith seems like too long. || (P): Still doing ok and I am managing - not an emergency || (C): I won't bug you anymore unless you text but I have notified Dr.  name . Do you feel would be better to go through Dr.  name  as quicker? || (C): Dr.  name  likely won't get message until tomorrow. || (C): haven't heard from you yet. how are you? || (P): I received your message- this is awesome || (P): No hurry- just wish dr smith could see me earlier than the 3 year wait - thanks for responding || (C): missed a couple. You are correct. 3 years is completely ridiculous (my words)!",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Will be able to get more info to Dr.  name . Thanks. I am sorry to hear not doing well. || (C): Welcome. QC nurses! || (P): Dr  name  - I don't think I can wait 3 years for my knee op. || (C): One of the nurses here. Are you having worse symptoms? || (P): The pain in my knee is increasing but it also seems to be bothering my hip and lower back. 3 years to wait for dr smith seems like too long. || (P): Still doing ok and I am managing - not an emergency || (C): I won't bug you anymore unless you text but I have notified Dr.  name . Do you feel would be better to go through Dr.  name  as quicker? || (C): Dr.  name  likely won't get message until tomorrow. || (C): haven't heard from you yet. how are you? || (P): I received your message- this is awesome || (P): No hurry- just wish dr smith could see me earlier than the 3 year wait - thanks for responding || (C): missed a couple. You are correct. 3 years is completely ridiculous (my words)!",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Will be able to get more info to Dr.  name . Thanks. I am sorry to hear not doing well. || (C): Welcome. QC nurses! || (P): Dr  name  - I don't think I can wait 3 years for my knee op. || (C): One of the nurses here. Are you having worse symptoms? || (P): The pain in my knee is increasing but it also seems to be bothering my hip and lower back. 3 years to wait for dr smith seems like too long. || (P): Still doing ok and I am managing - not an emergency || (C): I won't bug you anymore unless you text but I have notified Dr.  name . Do you feel would be better to go through Dr.  name  as quicker? || (C): Dr.  name  likely won't get message until tomorrow. || (C): haven't heard from you yet. how are you? || (P): I received your message- this is awesome || (P): No hurry- just wish dr smith could see me earlier than the 3 year wait - thanks for responding || (C): missed a couple. You are correct. 3 years is completely ridiculous (my words)!",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Will be able to get more info to Dr.  name . Thanks. I am sorry to hear not doing well. || (C): Welcome. QC nurses! || (P): Dr  name  - I don't think I can wait 3 years for my knee op. || (C): One of the nurses here. Are you having worse symptoms? || (P): The pain in my knee is increasing but it also seems to be bothering my hip and lower back. 3 years to wait for dr smith seems like too long. || (P): Still doing ok and I am managing - not an emergency || (C): I won't bug you anymore unless you text but I have notified Dr.  name . Do you feel would be better to go through Dr.  name  as quicker? || (C): Dr.  name  likely won't get message until tomorrow. || (C): haven't heard from you yet. how are you? || (P): I received your message- this is awesome || (P): No hurry- just wish dr smith could see me earlier than the 3 year wait - thanks for responding || (C): missed a couple. You are correct. 3 years is completely ridiculous (my words)!",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Will be able to get more info to Dr.  name . Thanks. I am sorry to hear not doing well. || (C): Welcome. QC nurses! || (P): Dr  name  - I don't think I can wait 3 years for my knee op. || (C): One of the nurses here. Are you having worse symptoms? || (P): The pain in my knee is increasing but it also seems to be bothering my hip and lower back. 3 years to wait for dr smith seems like too long. || (P): Still doing ok and I am managing - not an emergency || (C): I won't bug you anymore unless you text but I have notified Dr.  name . Do you feel would be better to go through Dr.  name  as quicker? || (C): Dr.  name  likely won't get message until tomorrow. || (C): haven't heard from you yet. how are you? || (P): I received your message- this is awesome || (P): No hurry- just wish dr smith could see me earlier than the 3 year wait - thanks for responding || (C): missed a couple. You are correct. 3 years is completely ridiculous (my words)!",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": -9.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Will be able to get more info to Dr.  name . Thanks. I am sorry to hear not doing well. || (C): Welcome. QC nurses! || (P): Dr  name  - I don't think I can wait 3 years for my knee op. || (C): One of the nurses here. Are you having worse symptoms? || (P): The pain in my knee is increasing but it also seems to be bothering my hip and lower back. 3 years to wait for dr smith seems like too long. || (P): Still doing ok and I am managing - not an emergency || (C): I won't bug you anymore unless you text but I have notified Dr.  name . Do you feel would be better to go through Dr.  name  as quicker? || (C): Dr.  name  likely won't get message until tomorrow. || (C): haven't heard from you yet. how are you? || (P): I received your message- this is awesome || (P): No hurry- just wish dr smith could see me earlier than the 3 year wait - thanks for responding || (C): missed a couple. You are correct. 3 years is completely ridiculous (my words)!",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": -4.5,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Will be able to get more info to Dr.  name . Thanks. I am sorry to hear not doing well. || (C): Welcome. QC nurses! || (P): Dr  name  - I don't think I can wait 3 years for my knee op. || (C): One of the nurses here. Are you having worse symptoms? || (P): The pain in my knee is increasing but it also seems to be bothering my hip and lower back. 3 years to wait for dr smith seems like too long. || (P): Still doing ok and I am managing - not an emergency || (C): I won't bug you anymore unless you text but I have notified Dr.  name . Do you feel would be better to go through Dr.  name  as quicker? || (C): Dr.  name  likely won't get message until tomorrow. || (C): haven't heard from you yet. how are you? || (P): I received your message- this is awesome || (P): No hurry- just wish dr smith could see me earlier than the 3 year wait - thanks for responding || (C): missed a couple. You are correct. 3 years is completely ridiculous (my words)!",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Will be able to get more info to Dr.  name . Thanks. I am sorry to hear not doing well. || (C): Welcome. QC nurses! || (P): Dr  name  - I don't think I can wait 3 years for my knee op. || (C): One of the nurses here. Are you having worse symptoms? || (P): The pain in my knee is increasing but it also seems to be bothering my hip and lower back. 3 years to wait for dr smith seems like too long. || (P): Still doing ok and I am managing - not an emergency || (C): I won't bug you anymore unless you text but I have notified Dr.  name . Do you feel would be better to go through Dr.  name  as quicker? || (C): Dr.  name  likely won't get message until tomorrow. || (C): haven't heard from you yet. how are you? || (P): I received your message- this is awesome || (P): No hurry- just wish dr smith could see me earlier than the 3 year wait - thanks for responding || (C): missed a couple. You are correct. 3 years is completely ridiculous (my words)!",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Will be able to get more info to Dr.  name . Thanks. I am sorry to hear not doing well. || (C): Welcome. QC nurses! || (P): Dr  name  - I don't think I can wait 3 years for my knee op. || (C): One of the nurses here. Are you having worse symptoms? || (P): The pain in my knee is increasing but it also seems to be bothering my hip and lower back. 3 years to wait for dr smith seems like too long. || (P): Still doing ok and I am managing - not an emergency || (C): I won't bug you anymore unless you text but I have notified Dr.  name . Do you feel would be better to go through Dr.  name  as quicker? || (C): Dr.  name  likely won't get message until tomorrow. || (C): haven't heard from you yet. how are you? || (P): I received your message- this is awesome || (P): No hurry- just wish dr smith could see me earlier than the 3 year wait - thanks for responding || (C): missed a couple. You are correct. 3 years is completely ridiculous (my words)!",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Will be able to get more info to Dr.  name . Thanks. I am sorry to hear not doing well. || (C): Welcome. QC nurses! || (P): Dr  name  - I don't think I can wait 3 years for my knee op. || (C): One of the nurses here. Are you having worse symptoms? || (P): The pain in my knee is increasing but it also seems to be bothering my hip and lower back. 3 years to wait for dr smith seems like too long. || (P): Still doing ok and I am managing - not an emergency || (C): I won't bug you anymore unless you text but I have notified Dr.  name . Do you feel would be better to go through Dr.  name  as quicker? || (C): Dr.  name  likely won't get message until tomorrow. || (C): haven't heard from you yet. how are you? || (P): I received your message- this is awesome || (P): No hurry- just wish dr smith could see me earlier than the 3 year wait - thanks for responding || (C): missed a couple. You are correct. 3 years is completely ridiculous (my words)!",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Will be able to get more info to Dr.  name . Thanks. I am sorry to hear not doing well. || (C): Welcome. QC nurses! || (P): Dr  name  - I don't think I can wait 3 years for my knee op. || (C): One of the nurses here. Are you having worse symptoms? || (P): The pain in my knee is increasing but it also seems to be bothering my hip and lower back. 3 years to wait for dr smith seems like too long. || (P): Still doing ok and I am managing - not an emergency || (C): I won't bug you anymore unless you text but I have notified Dr.  name . Do you feel would be better to go through Dr.  name  as quicker? || (C): Dr.  name  likely won't get message until tomorrow. || (C): haven't heard from you yet. how are you? || (P): I received your message- this is awesome || (P): No hurry- just wish dr smith could see me earlier than the 3 year wait - thanks for responding || (C): missed a couple. You are correct. 3 years is completely ridiculous (my words)!",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Will be able to get more info to Dr.  name . Thanks. I am sorry to hear not doing well. || (C): Welcome. QC nurses! || (P): Dr  name  - I don't think I can wait 3 years for my knee op. || (C): One of the nurses here. Are you having worse symptoms? || (P): The pain in my knee is increasing but it also seems to be bothering my hip and lower back. 3 years to wait for dr smith seems like too long. || (P): Still doing ok and I am managing - not an emergency || (C): I won't bug you anymore unless you text but I have notified Dr.  name . Do you feel would be better to go through Dr.  name  as quicker? || (C): Dr.  name  likely won't get message until tomorrow. || (C): haven't heard from you yet. how are you? || (P): I received your message- this is awesome || (P): No hurry- just wish dr smith could see me earlier than the 3 year wait - thanks for responding || (C): missed a couple. You are correct. 3 years is completely ridiculous (my words)!",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 6.5,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Will be able to get more info to Dr.  name . Thanks. I am sorry to hear not doing well. || (C): Welcome. QC nurses! || (P): Dr  name  - I don't think I can wait 3 years for my knee op. || (C): One of the nurses here. Are you having worse symptoms? || (P): The pain in my knee is increasing but it also seems to be bothering my hip and lower back. 3 years to wait for dr smith seems like too long. || (P): Still doing ok and I am managing - not an emergency || (C): I won't bug you anymore unless you text but I have notified Dr.  name . Do you feel would be better to go through Dr.  name  as quicker? || (C): Dr.  name  likely won't get message until tomorrow. || (C): haven't heard from you yet. how are you? || (P): I received your message- this is awesome || (P): No hurry- just wish dr smith could see me earlier than the 3 year wait - thanks for responding || (C): missed a couple. You are correct. 3 years is completely ridiculous (my words)!",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 3.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Will be able to get more info to Dr.  name . Thanks. I am sorry to hear not doing well. || (C): Welcome. QC nurses! || (P): Dr  name  - I don't think I can wait 3 years for my knee op. || (C): One of the nurses here. Are you having worse symptoms? || (P): The pain in my knee is increasing but it also seems to be bothering my hip and lower back. 3 years to wait for dr smith seems like too long. || (P): Still doing ok and I am managing - not an emergency || (C): I won't bug you anymore unless you text but I have notified Dr.  name . Do you feel would be better to go through Dr.  name  as quicker? || (C): Dr.  name  likely won't get message until tomorrow. || (C): haven't heard from you yet. how are you? || (P): I received your message- this is awesome || (P): No hurry- just wish dr smith could see me earlier than the 3 year wait - thanks for responding || (C): missed a couple. You are correct. 3 years is completely ridiculous (my words)!",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": -10.799999999999999,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): Will be able to get more info to Dr.  name . Thanks. I am sorry to hear not doing well. || (C): Welcome. QC nurses! || (P): Dr  name  - I don't think I can wait 3 years for my knee op. || (C): One of the nurses here. Are you having worse symptoms? || (P): The pain in my knee is increasing but it also seems to be bothering my hip and lower back. 3 years to wait for dr smith seems like too long. || (P): Still doing ok and I am managing - not an emergency || (C): I won't bug you anymore unless you text but I have notified Dr.  name . Do you feel would be better to go through Dr.  name  as quicker? || (C): Dr.  name  likely won't get message until tomorrow. || (C): haven't heard from you yet. how are you? || (P): I received your message- this is awesome || (P): No hurry- just wish dr smith could see me earlier than the 3 year wait - thanks for responding || (C): missed a couple. You are correct. 3 years is completely ridiculous (my words)!",
+                    "sentimentwords": []
+                }
+            ]
+        },
+        {
+            "commentid": "13",
+            "title": 421,
+            "author": "P",
+            "date": "2017-04-24 19:04",
+            "htmltext": "(P): Thanks || (C): That is one good thing.... || (P): Breathing",
+            "systemtopicid": [],
+            "sent": [
+                {
+                    "linePolarity": 3.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Thanks || (C): That is one good thing.... || (P): Breathing",
+                    "sentimentwords": []
+                }
+            ]
+        },
+        {
+            "commentid": "14",
+            "title": 470,
+            "author": "P",
+            "date": "2017-04-24 21:55",
+            "htmltext": "(P): Thank you. || (C): Great. The referral is in. You should get a call. Likely will not be until fall. || (P): No other symptoms. || (C): If symptoms better off gluten, I would avoid as you are doing. Any stomach symptoms like nausea, diarrhea? || (C): My apologies. I will look into why did not get the flag! We will put in referral for allergist. || (P): I'm good, but waiting for a response from you regard the message I sent you last week",
+            "systemtopicid": [
+                0,
+                2,
+                21,
+                24
+            ],
+            "sent": [
+                {
+                    "linePolarity": 2.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Thank you. || (C): Great. The referral is in. You should get a call. Likely will not be until fall. || (P): No other symptoms. || (C): If symptoms better off gluten, I would avoid as you are doing. Any stomach symptoms like nausea, diarrhea? || (C): My apologies. I will look into why did not get the flag! We will put in referral for allergist. || (P): I'm good, but waiting for a response from you regard the message I sent you last week",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Thank you. || (C): Great. The referral is in. You should get a call. Likely will not be until fall. || (P): No other symptoms. || (C): If symptoms better off gluten, I would avoid as you are doing. Any stomach symptoms like nausea, diarrhea? || (C): My apologies. I will look into why did not get the flag! We will put in referral for allergist. || (P): I'm good, but waiting for a response from you regard the message I sent you last week",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Thank you. || (C): Great. The referral is in. You should get a call. Likely will not be until fall. || (P): No other symptoms. || (C): If symptoms better off gluten, I would avoid as you are doing. Any stomach symptoms like nausea, diarrhea? || (C): My apologies. I will look into why did not get the flag! We will put in referral for allergist. || (P): I'm good, but waiting for a response from you regard the message I sent you last week",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Thank you. || (C): Great. The referral is in. You should get a call. Likely will not be until fall. || (P): No other symptoms. || (C): If symptoms better off gluten, I would avoid as you are doing. Any stomach symptoms like nausea, diarrhea? || (C): My apologies. I will look into why did not get the flag! We will put in referral for allergist. || (P): I'm good, but waiting for a response from you regard the message I sent you last week",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Thank you. || (C): Great. The referral is in. You should get a call. Likely will not be until fall. || (P): No other symptoms. || (C): If symptoms better off gluten, I would avoid as you are doing. Any stomach symptoms like nausea, diarrhea? || (C): My apologies. I will look into why did not get the flag! We will put in referral for allergist. || (P): I'm good, but waiting for a response from you regard the message I sent you last week",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Thank you. || (C): Great. The referral is in. You should get a call. Likely will not be until fall. || (P): No other symptoms. || (C): If symptoms better off gluten, I would avoid as you are doing. Any stomach symptoms like nausea, diarrhea? || (C): My apologies. I will look into why did not get the flag! We will put in referral for allergist. || (P): I'm good, but waiting for a response from you regard the message I sent you last week",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": -1.5,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Thank you. || (C): Great. The referral is in. You should get a call. Likely will not be until fall. || (P): No other symptoms. || (C): If symptoms better off gluten, I would avoid as you are doing. Any stomach symptoms like nausea, diarrhea? || (C): My apologies. I will look into why did not get the flag! We will put in referral for allergist. || (P): I'm good, but waiting for a response from you regard the message I sent you last week",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Thank you. || (C): Great. The referral is in. You should get a call. Likely will not be until fall. || (P): No other symptoms. || (C): If symptoms better off gluten, I would avoid as you are doing. Any stomach symptoms like nausea, diarrhea? || (C): My apologies. I will look into why did not get the flag! We will put in referral for allergist. || (P): I'm good, but waiting for a response from you regard the message I sent you last week",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Thank you. || (C): Great. The referral is in. You should get a call. Likely will not be until fall. || (P): No other symptoms. || (C): If symptoms better off gluten, I would avoid as you are doing. Any stomach symptoms like nausea, diarrhea? || (C): My apologies. I will look into why did not get the flag! We will put in referral for allergist. || (P): I'm good, but waiting for a response from you regard the message I sent you last week",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Thank you. || (C): Great. The referral is in. You should get a call. Likely will not be until fall. || (P): No other symptoms. || (C): If symptoms better off gluten, I would avoid as you are doing. Any stomach symptoms like nausea, diarrhea? || (C): My apologies. I will look into why did not get the flag! We will put in referral for allergist. || (P): I'm good, but waiting for a response from you regard the message I sent you last week",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Thank you. || (C): Great. The referral is in. You should get a call. Likely will not be until fall. || (P): No other symptoms. || (C): If symptoms better off gluten, I would avoid as you are doing. Any stomach symptoms like nausea, diarrhea? || (C): My apologies. I will look into why did not get the flag! We will put in referral for allergist. || (P): I'm good, but waiting for a response from you regard the message I sent you last week",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 3.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Thank you. || (C): Great. The referral is in. You should get a call. Likely will not be until fall. || (P): No other symptoms. || (C): If symptoms better off gluten, I would avoid as you are doing. Any stomach symptoms like nausea, diarrhea? || (C): My apologies. I will look into why did not get the flag! We will put in referral for allergist. || (P): I'm good, but waiting for a response from you regard the message I sent you last week",
+                    "sentimentwords": []
+                }
+            ]
+        },
+        {
+            "commentid": "15",
+            "title": 503,
+            "author": "P",
+            "date": "2017-04-26 19:03",
+            "htmltext": "(P): This is Alana btw. || (P): Never mind. I've decided to call it QC Hospital Link. || (C): Perfect! Can call it whatever you want so you know what it is and if necessary keep private that is clinic (or not). Welcome! || (P): Awesome. What do I call this .. so I can call it something in my contacts.",
+            "systemtopicid": [
+                19,
+                24
+            ],
+            "sent": [
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): This is Alana btw. || (P): Never mind. I've decided to call it QC Hospital Link. || (C): Perfect! Can call it whatever you want so you know what it is and if necessary keep private that is clinic (or not). Welcome! || (P): Awesome. What do I call this .. so I can call it something in my contacts.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): This is Alana btw. || (P): Never mind. I've decided to call it QC Hospital Link. || (C): Perfect! Can call it whatever you want so you know what it is and if necessary keep private that is clinic (or not). Welcome! || (P): Awesome. What do I call this .. so I can call it something in my contacts.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): This is Alana btw. || (P): Never mind. I've decided to call it QC Hospital Link. || (C): Perfect! Can call it whatever you want so you know what it is and if necessary keep private that is clinic (or not). Welcome! || (P): Awesome. What do I call this .. so I can call it something in my contacts.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): This is Alana btw. || (P): Never mind. I've decided to call it QC Hospital Link. || (C): Perfect! Can call it whatever you want so you know what it is and if necessary keep private that is clinic (or not). Welcome! || (P): Awesome. What do I call this .. so I can call it something in my contacts.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): This is Alana btw. || (P): Never mind. I've decided to call it QC Hospital Link. || (C): Perfect! Can call it whatever you want so you know what it is and if necessary keep private that is clinic (or not). Welcome! || (P): Awesome. What do I call this .. so I can call it something in my contacts.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): This is Alana btw. || (P): Never mind. I've decided to call it QC Hospital Link. || (C): Perfect! Can call it whatever you want so you know what it is and if necessary keep private that is clinic (or not). Welcome! || (P): Awesome. What do I call this .. so I can call it something in my contacts.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 5.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): This is Alana btw. || (P): Never mind. I've decided to call it QC Hospital Link. || (C): Perfect! Can call it whatever you want so you know what it is and if necessary keep private that is clinic (or not). Welcome! || (P): Awesome. What do I call this .. so I can call it something in my contacts.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): This is Alana btw. || (P): Never mind. I've decided to call it QC Hospital Link. || (C): Perfect! Can call it whatever you want so you know what it is and if necessary keep private that is clinic (or not). Welcome! || (P): Awesome. What do I call this .. so I can call it something in my contacts.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): This is Alana btw. || (P): Never mind. I've decided to call it QC Hospital Link. || (C): Perfect! Can call it whatever you want so you know what it is and if necessary keep private that is clinic (or not). Welcome! || (P): Awesome. What do I call this .. so I can call it something in my contacts.",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): This is Alana btw. || (P): Never mind. I've decided to call it QC Hospital Link. || (C): Perfect! Can call it whatever you want so you know what it is and if necessary keep private that is clinic (or not). Welcome! || (P): Awesome. What do I call this .. so I can call it something in my contacts.",
+                    "sentimentwords": []
+                }
+            ]
+        },
+        {
+            "commentid": "16",
+            "title": 516,
+            "author": "P",
+            "date": "2017-04-26 20:21",
+            "htmltext": "(C): haven't heard from you yet. how are you? || (P): Ok! Thanks. || (C): Thanks for signing up for this texting service. Hope you like it. name",
+            "systemtopicid": [
+                15
+            ],
+            "sent": [
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): haven't heard from you yet. how are you? || (P): Ok! Thanks. || (C): Thanks for signing up for this texting service. Hope you like it. name",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): haven't heard from you yet. how are you? || (P): Ok! Thanks. || (C): Thanks for signing up for this texting service. Hope you like it. name",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): haven't heard from you yet. how are you? || (P): Ok! Thanks. || (C): Thanks for signing up for this texting service. Hope you like it. name",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): haven't heard from you yet. how are you? || (P): Ok! Thanks. || (C): Thanks for signing up for this texting service. Hope you like it. name",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 1.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): haven't heard from you yet. how are you? || (P): Ok! Thanks. || (C): Thanks for signing up for this texting service. Hope you like it. name",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): haven't heard from you yet. how are you? || (P): Ok! Thanks. || (C): Thanks for signing up for this texting service. Hope you like it. name",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(C): haven't heard from you yet. how are you? || (P): Ok! Thanks. || (C): Thanks for signing up for this texting service. Hope you like it. name",
+                    "sentimentwords": []
+                }
+            ]
+        },
+        {
+            "commentid": "17",
+            "title": 533,
+            "author": "P",
+            "date": "2017-04-30 22:28",
+            "htmltext": "(P): Bad || (C): haven't heard from you yet. how are you? || (P): Test || (P): Bad || (C): haven't heard from you yet. how are you?",
+            "systemtopicid": [
+                3,
+                24
+            ],
+            "sent": [
+                {
+                    "linePolarity": -4.5,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Bad || (C): haven't heard from you yet. how are you? || (P): Test || (P): Bad || (C): haven't heard from you yet. how are you?",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Bad || (C): haven't heard from you yet. how are you? || (P): Test || (P): Bad || (C): haven't heard from you yet. how are you?",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": -2.25,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Bad || (C): haven't heard from you yet. how are you? || (P): Test || (P): Bad || (C): haven't heard from you yet. how are you?",
+                    "sentimentwords": []
+                },
+                {
+                    "linePolarity": 0.0,
+                    "systemlabel": [],
+                    "sentid": "1",
+                    "sent": "(P): Bad || (C): haven't heard from you yet. how are you? || (P): Test || (P): Bad || (C): haven't heard from you yet. how are you?",
+                    "sentimentwords": []
+                }
+            ]
+        }
+    ],
+    "sent": [
+        {
+            "linePolarity": -1.6875,
+            "systemtopicid": 1,
+            "systemlabel": " ",
+            "sentid": "1",
+            "sent": "",
+            "sentimentwords": []
+        }
+    ],
+    "topics": [
+        {
+            "topicID": 6,
+            "subtopicID": 24,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Health Information",
+                    "prob": 0.0
+                }
+            ],
+            "topicsentiments": [
+                2,
+                4,
+                2,
+                10,
+                0
+            ]
+        },
+        {
+            "topicID": 6,
+            "subtopicID": 23,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Social",
+                    "prob": 0.0
+                }
+            ],
+            "topicsentiments": [
+                2,
+                4,
+                2,
+                10,
+                0
+            ]
+        },
+        {
+            "topicID": 6,
+            "subtopicID": 22,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Emotional",
+                    "prob": 0.0
+                }
+            ],
+            "topicsentiments": [
+                2,
+                4,
+                2,
+                10,
+                0
+            ]
+        },
+        {
+            "topicID": 6,
+            "subtopicID": 21,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Physical",
+                    "prob": 0.0
+                }
+            ],
+            "topicsentiments": [
+                2,
+                4,
+                2,
+                10,
+                0
+            ]
+        },
+        {
+            "topicID": 5,
+            "subtopicID": 20,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Technical",
+                    "prob": 0.0
+                }
+            ],
+            "topicsentiments": [
+                2,
+                4,
+                2,
+                10,
+                0
+            ]
+        },
+        {
+            "topicID": 5,
+            "subtopicID": 19,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Hospitalizations",
+                    "prob": 0.0
+                }
+            ],
+            "topicsentiments": [
+                2,
+                4,
+                2,
+                10,
+                0
+            ]
+        },
+        {
+            "topicID": 5,
+            "subtopicID": 18,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Outpatient",
+                    "prob": 0.0
+                }
+            ],
+            "topicsentiments": [
+                2,
+                4,
+                2,
+                10,
+                0
+            ]
+        },
+        {
+            "topicID": 4,
+            "subtopicID": 17,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Cultural",
+                    "prob": 0.0
+                }
+            ],
+            "topicsentiments": [
+                2,
+                4,
+                2,
+                10,
+                0
+            ]
+        },
+        {
+            "topicID": 4,
+            "subtopicID": 16,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Friends & Family",
+                    "prob": 0.0
+                }
+            ],
+            "topicsentiments": [
+                2,
+                4,
+                2,
+                10,
+                0
+            ]
+        },
+        {
+            "topicID": 4,
+            "subtopicID": 15,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Social Services",
+                    "prob": 0.0
+                }
+            ],
+            "topicsentiments": [
+                2,
+                4,
+                2,
+                10,
+                0
+            ]
+        },
+        {
+            "topicID": 4,
+            "subtopicID": 14,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Work",
+                    "prob": 0.0
+                }
+            ],
+            "topicsentiments": [
+                2,
+                4,
+                2,
+                10,
+                0
+            ]
+        },
+        {
+            "topicID": 4,
+            "subtopicID": 13,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Housing",
+                    "prob": 0.0
+                }
+            ],
+            "topicsentiments": [
+                2,
+                4,
+                2,
+                10,
+                0
+            ]
+        },
+        {
+            "topicID": 3,
+            "subtopicID": 12,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Substance Use",
+                    "prob": 0.15814172956238517
+                }
+            ],
+            "topicsentiments": [
+                2,
+                4,
+                2,
+                10,
+                0
+            ]
+        },
+        {
+            "topicID": 3,
+            "subtopicID": 11,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Exercise",
+                    "prob": 0.15814172956238517
+                }
+            ],
+            "topicsentiments": [
+                2,
+                4,
+                2,
+                10,
+                0
+            ]
+        },
+        {
+            "topicID": 3,
+            "subtopicID": 10,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Diet / Nutrition",
+                    "prob": 0.15814172956238517
+                }
+            ],
+            "topicsentiments": [
+                2,
+                4,
+                2,
+                10,
+                0
+            ]
+        },
+        {
+            "topicID": 2,
+            "subtopicID": 9,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Counseling",
+                    "prob": 0.15814172956238517
+                }
+            ],
+            "topicsentiments": [
+                2,
+                4,
+                2,
+                10,
+                0
+            ]
+        },
+        {
+            "topicID": 2,
+            "subtopicID": 8,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Physical Therapy",
+                    "prob": 0.15814172956238517
+                }
+            ],
+            "topicsentiments": [
+                2,
+                4,
+                2,
+                10,
+                0
+            ]
+        },
+        {
+            "topicID": 2,
+            "subtopicID": 7,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Device",
+                    "prob": 0.15814172956238517
+                }
+            ],
+            "topicsentiments": [
+                2,
+                4,
+                2,
+                10,
+                0
+            ]
+        },
+        {
+            "topicID": 2,
+            "subtopicID": 6,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Alternative",
+                    "prob": 0.15814172956238517
+                }
+            ],
+            "topicsentiments": [
+                2,
+                4,
+                2,
+                10,
+                0
+            ]
+        },
+        {
+            "topicID": 2,
+            "subtopicID": 5,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Prescriptions",
+                    "prob": 0.15814172956238517
+                }
+            ],
+            "topicsentiments": [
+                2,
+                4,
+                2,
+                10,
+                0
+            ]
+        },
+        {
+            "topicID": 1,
+            "subtopicID": 4,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Imaging",
+                    "prob": 0.15814172956238517
+                }
+            ],
+            "topicsentiments": [
+                2,
+                4,
+                2,
+                10,
+                0
+            ]
+        },
+        {
+            "topicID": 1,
+            "subtopicID": 3,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Laboratory",
+                    "prob": 0.15814172956238517
+                }
+            ],
+            "topicsentiments": [
+                2,
+                4,
+                2,
+                10,
+                0
+            ]
+        },
+        {
+            "topicID": 1,
+            "subtopicID": 2,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Diagnosis",
+                    "prob": 0.15814172956238517
+                }
+            ],
+            "topicsentiments": [
+                2,
+                4,
+                2,
+                10,
+                0
+            ]
+        },
+        {
+            "topicID": 0,
+            "subtopicID": 1,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Mental / Emotional",
+                    "prob": 0.15814172956238517
+                }
+            ],
+            "topicsentiments": [
+                2,
+                4,
+                2,
+                10,
+                0
+            ]
+        },
+        {
+            "topicID": 0,
+            "subtopicID": 0,
+            "strength": 42,
+            "labels": [
+                {
+                    "phrase": "Physical",
+                    "prob": 0.15814172956238517
+                }
+            ],
+            "topicsentiments": [
+                2,
+                4,
+                2,
+                10,
+                0
+            ]
+        }
+    ]
+}
