@@ -8,4 +8,4 @@ In terminal, run `python3 -m http.server 8000`, and go to http://0.0.0.0:8000/ i
 
 ## Current Layout
 
-![screenshot of the current progress](resources/sentiment_view.png | width=100)
+![screenshot of the current progress](resources/sentiment_view.png =250x)
