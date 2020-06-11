@@ -11,10 +11,18 @@ Promise.all([
     })
   })
 
+  let analysis = new ConvAnalysis({ parentElement: "#main" })
+
   // Sort by datetime ascending
   conversations.sort((a, b) => Date.parse(a.date) - Date.parse(b.date))
-
-  let analysis = new ConvAnalysis({ parentElement: "#main" })
+  conversations.forEach(d => {
+    d.sent0 = d.sent1 = d.sent2 = d.sent3 = d.sent4 = d.sentTotal = 0;
+    d.sent.forEach(s => {
+      d[`sent${analysis.sentimentBin(s.linePolarity)}`]++;
+      d.sentTotal++;
+    })
+  })
+  console.log(conversations);
   analysis.data = conversations;
   analysis.updateVis();
 })
