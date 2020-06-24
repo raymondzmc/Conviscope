@@ -13,16 +13,26 @@ Promise.all([
 
   let analysis = new ConvAnalysis({ parentElement: "#main" })
 
+  let sentiments = [[], [], [], [], []];
+  let prev = 0;
+
   // Sort by datetime ascending
   conversations.sort((a, b) => Date.parse(a.date) - Date.parse(b.date))
-  conversations.forEach(d => {
-    d.sent0 = d.sent1 = d.sent2 = d.sent3 = d.sent4 = d.sentTotal = 0;
+  conversations.forEach((d, i) => {
+    d.sentWidth = Array(5).fill(0);
+    d.sentTotal = 0;
     d.sent.forEach(s => {
-      d[`sent${analysis.sentimentBin(s.linePolarity)}`]++;
+      d.sentWidth[analysis.sentimentBin(s.linePolarity)]++;
       d.sentTotal++;
     })
+    prev = 0;
+    d.sentWidth.forEach((width, j) => {
+      curr = prev + width / d.sentTotal;
+      sentiments[j].push([prev, curr]);
+      prev = curr;
+    })
   })
-  console.log(conversations);
-  analysis.data = conversations;
+  analysis.focusData = conversations;
+  analysis.contextData = sentiments;
   analysis.updateVis();
 })
