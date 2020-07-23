@@ -3,6 +3,11 @@
     stroke-width: 0.3;
 }
 
+.topic-grid {
+    stroke: black;
+    stroke-width: 0.3;
+}
+
 .scroll-selector {
 	stroke: black;
 	stroke-opacity: .1;
