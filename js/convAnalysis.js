@@ -74,16 +74,47 @@ class ConvAnalysis {
 
   renderContext() {
     let vis = this;
-    let beforeData = vis.data.slice(0, vis.focusIndex.start);
-    let afterData = vis.data.slice(vis.focusIndex.end);
+    let beforeData = vis.data.slice(0, vis.focusIndex.start + 1);
+    let afterData = vis.data.slice(vis.focusIndex.end - 1);
 
     // The starting point of the left and right context
     let contextStart = [
       vis.config.margin.left,
       vis.config.margin.left + 0.85 * vis.config.innerWidth
     ]
-
     let contextWidth = vis.config.contextWidth;
+    let xRangeLeft;
+    let xRangeRight;
+
+    let contextMarkWidth = {
+      'left': (beforeData.length > 1)? contextWidth / (beforeData.length - 1) : contextWidth,
+      'right': (afterData.length > 1)? contextWidth / (afterData.length - 1) : contextWidth
+    }
+    console.log(contextMarkWidth);
+
+    if (((beforeData.length - 1) * vis.markWidth) < contextWidth) {
+      xRangeLeft = [
+        contextStart[0] + contextWidth - beforeData.length * vis.markWidth + vis.markWidth,
+        contextStart[0] + contextWidth + vis.markWidth
+      ];
+    } else {
+      xRangeLeft = [
+        contextStart[0], 
+        contextStart[0] + contextWidth + contextMarkWidth.left
+      ];
+    }
+
+    if (((afterData.length - 1) * vis.markWidth) < contextWidth) {
+      xRangeRight = [
+        contextStart[1],
+        contextStart[1] + (afterData.length * vis.markWidth)
+      ];
+    } else {
+      xRangeRight = [
+        contextStart[1],
+        contextStart[1] + contextWidth + contextMarkWidth.right
+      ];
+    }
 
     let stack = d3.stack()
       .keys([0, 1, 2, 3, 4])
@@ -97,15 +128,15 @@ class ConvAnalysis {
     // Define the x-scale for left and right context
     const xScaleLeft = d3.scaleBand()
       .domain(beforeData.map(d => d.title))
-      .range([contextStart[0], contextStart[0] + contextWidth]);
+      .range(xRangeLeft);
 
-    console.log(`Context Range Left: ${contextStart[0]}, ${contextStart[0] + contextWidth}`)
+    // console.log(`Context Range Left: ${contextStart[0]}, ${contextStart[0] + contextWidth}`)
 
     const xScaleRight = d3.scaleBand()
       .domain(afterData.map(d => d.title))
-      .range([contextStart[1], contextStart[1] + contextWidth]);
+      .range(xRangeRight);
 
-    console.log(`Context Range Right: ${contextStart[1]}, ${contextStart[1] + contextWidth}`)
+    // console.log(`Context Range Right: ${contextStart[1]}, ${contextStart[1] + contextWidth}`)
 
     const height = vis.config.barHeight;
     const yScale = d3.scaleLinear()
@@ -113,13 +144,21 @@ class ConvAnalysis {
 
     let areaLeft = d3.area()
       .x(d => xScaleLeft(d.data.title))
+      // .x1(d => xScaleLeft(d.data.title) + vis.markWidth / 2)
       .y0(d => yScale(d[0]))
-      .y1(d => yScale(d[1]));
+      .y1(d => yScale(d[1]))
+      .curve(d3.curveStepAfter);
+
+    // areaLeft = areaLeft.curve(d3.curveLinear())
+    // console.log(areaLeft)
+    // console.log(areaLeft.curve());
+
 
     let areaRight = d3.area()
       .x(d => xScaleRight(d.data.title))
       .y0(d => yScale(d[0]))
-      .y1(d => yScale(d[1]));
+      .y1(d => yScale(d[1]))
+      .curve(d3.curveStepBefore);
 
     let subgroups = ["sent0", "sent1", "sent2", "sent3", "sent4"];
     const colorScale = d3.scaleOrdinal()
@@ -166,6 +205,7 @@ class ConvAnalysis {
     ]
 
     console.log(`Focus Range ${xRange[0]}, ${xRange[1]}`)
+
     // Define scales
     const xScale = d3.scaleBand()
       .domain(data.map(d => d.title))
@@ -217,6 +257,8 @@ class ConvAnalysis {
       .range(xRange)
       .padding(0.05);
 
+    vis.markWidth = xScale.bandwidth();
+
     const yScale = d3.scaleBand()
       .domain(Array.from(Array(vis.numTopics).keys()))
       .range(yRange)
@@ -248,18 +290,34 @@ class ConvAnalysis {
     let beforeData = vis.data.slice(0, vis.focusIndex.start);
     let afterData = vis.data.slice(vis.focusIndex.end);
 
-    let stack = d3.stack()
-      .keys([0, 1, 2, 3, 4])
-      .value((d, key) => d.sentHeight[key])
-      .offset(d3.stackOffsetExpand); // Normalize between 0 and 1
 
     // The starting point of the left and right context
     let contextStart = [
       vis.config.margin.left,
       vis.config.margin.left + 0.85 * vis.config.innerWidth
     ]
-
     let contextWidth = vis.config.contextWidth;
+    let xRangeLeft;
+    let xRangeRight;
+
+    if ((beforeData.length * vis.markWidth) < contextWidth) {
+      xRangeLeft = [
+        contextStart[0] + contextWidth - beforeData.length * vis.markWidth,
+        contextStart[0] + contextWidth
+      ];
+    } else {
+      xRangeLeft = [contextStart[0], contextStart[0] + contextWidth];
+    }
+
+    if ((afterData.length * vis.markWidth) < contextWidth) {
+      xRangeRight = [
+        contextStart[1],
+        contextStart[1] + (afterData.length * vis.markWidth)
+      ];
+    } else {
+      xRangeRight = [contextStart[1], contextStart[1] + contextWidth];
+    }
+
 
     // let stack = d3.stack()
     //   .keys([0, 1, 2, 3, 4])
@@ -276,11 +334,11 @@ class ConvAnalysis {
 
     const xScaleLeft = d3.scaleBand()
       .domain(beforeData.map(d => d.title))
-      .range([contextStart[0], contextStart[0] + contextWidth]);
+      .range(xRangeLeft);
 
     const xScaleRight = d3.scaleBand()
       .domain(afterData.map(d => d.title))
-      .range([contextStart[1], contextStart[1] + contextWidth]);
+      .range(xRangeRight);
 
     const yScale = d3.scaleBand()
       .domain(Array.from(Array(vis.numTopics).keys()))
@@ -413,8 +471,8 @@ class ConvAnalysis {
       if (startIndex != vis.focusIndex.start && endIndex != vis.focusIndex.end){
         vis.focusIndex = {'start': endIndex - vis.numFocused, 'end': endIndex};
         vis.renderFocus();
-        vis.renderTopicFocus();
         vis.renderContext();
+        vis.renderTopicFocus();
         vis.renderTopicContext();
       }
       
