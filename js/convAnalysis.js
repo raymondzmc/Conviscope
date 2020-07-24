@@ -90,7 +90,6 @@ class ConvAnalysis {
       'left': (beforeData.length > 1)? contextWidth / (beforeData.length - 1) : contextWidth,
       'right': (afterData.length > 1)? contextWidth / (afterData.length - 1) : contextWidth
     }
-    console.log(contextMarkWidth);
 
     if (((beforeData.length - 1) * vis.markWidth) < contextWidth) {
       xRangeLeft = [
@@ -203,8 +202,6 @@ class ConvAnalysis {
       vis.config.margin.left + vis.config.contextWidth,
       vis.config.margin.left + vis.config.contextWidth + vis.config.focusWidth
     ]
-
-    console.log(`Focus Range ${xRange[0]}, ${xRange[1]}`)
 
     // Define scales
     const xScale = d3.scaleBand()
