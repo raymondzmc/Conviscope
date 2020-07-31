@@ -1,4 +1,4 @@
-class ConvAnalysis {
+export class ConvAnalysis {
   constructor(_config) {
 
     // TODO: Make height/width relative to the screen size
@@ -39,6 +39,7 @@ class ConvAnalysis {
     vis.config.focusWidth = 0.7 * vis.config.innerWidth;
     vis.config.contextWidth = 0.15 * vis.config.innerWidth;
     vis.config.barHeight = vis.config.containerHeight / 4;
+    vis.config.barWidth = vis.config.focusWidth / vis.numFocused;
 
     // Define height s.t. each grid is a square
     vis.config.heatMapHeight = (vis.config.focusWidth / vis.numFocused) * vis.numTopics;
@@ -52,8 +53,17 @@ class ConvAnalysis {
 
     vis.numConv = vis.data.length;
 
-    // Use the latest 50 conversations for current view
-    vis.focusIndex = {'start': vis.numConv - vis.numFocused, 'end': vis.numConv};
+    if (vis.numConv > vis.numFocused){
+
+      // Use the latest 50 conversations for current view
+      vis.focusIndex = {'start': vis.numConv - vis.numFocused, 'end': vis.numConv};
+      vis.renderSelector();
+    } else {
+      vis.focusIndex = {'start': 0, 'end': vis.numConv};
+      vis.config.focusWidth = vis.config.barWidth * vis.numConv;
+    }
+
+    
     vis.focusContainer = vis.svgContainer.append('g');
     vis.topicFocusContainer = vis.svgContainer.append('g');
     vis.contextContainer = {
@@ -67,7 +77,6 @@ class ConvAnalysis {
     vis.renderContext();
     vis.renderFocus();
     vis.renderTopicFocus();
-    vis.renderSelector();
     vis.renderTopicContext();
   }
 
@@ -91,10 +100,11 @@ class ConvAnalysis {
       'right': (afterData.length > 1)? contextWidth / (afterData.length - 1) : contextWidth
     }
 
-    if (((beforeData.length - 1) * vis.markWidth) < contextWidth) {
+
+    if (((beforeData.length - 1) * vis.config.barWidth) < contextWidth) {
       xRangeLeft = [
-        contextStart[0] + contextWidth - beforeData.length * vis.markWidth + vis.markWidth,
-        contextStart[0] + contextWidth + vis.markWidth
+        contextStart[0] + contextWidth - beforeData.length * vis.config.barWidth + vis.config.barWidth,
+        contextStart[0] + contextWidth + vis.config.barWidth
       ];
     } else {
       xRangeLeft = [
@@ -103,10 +113,10 @@ class ConvAnalysis {
       ];
     }
 
-    if (((afterData.length - 1) * vis.markWidth) < contextWidth) {
+    if (((afterData.length - 1) * vis.config.barWidth) < contextWidth) {
       xRangeRight = [
         contextStart[1],
-        contextStart[1] + (afterData.length * vis.markWidth)
+        contextStart[1] + (afterData.length * vis.config.barWidth)
       ];
     } else {
       xRangeRight = [
@@ -143,14 +153,9 @@ class ConvAnalysis {
 
     let areaLeft = d3.area()
       .x(d => xScaleLeft(d.data.title))
-      // .x1(d => xScaleLeft(d.data.title) + vis.markWidth / 2)
       .y0(d => yScale(d[0]))
       .y1(d => yScale(d[1]))
       .curve(d3.curveStepAfter);
-
-    // areaLeft = areaLeft.curve(d3.curveLinear())
-    // console.log(areaLeft)
-    // console.log(areaLeft.curve());
 
 
     let areaRight = d3.area()
@@ -219,8 +224,26 @@ class ConvAnalysis {
     // Draw SVG
     let cols = vis.focusContainer.selectAll('g').data(stackedData);
     let colsEnter = cols.enter()
-      .append("g")
+      .append('g')
       .attr('transform', d => `translate(${xScale(d[0].data.title)}, 0)`);
+
+    // Smooth scroll to the corresponding conversation in content-view
+    colsEnter.merge(cols)
+      .on('click', (d) => {
+        let contentElement = document.getElementById(`${d[0].data.title}-content`);
+        let contentView = document.getElementById('content-view');
+        let targetOffset = contentElement.offsetTop - contentView.offsetTop - 5;
+        let offset = contentView.scrollTop;
+        d3.select('#content-view')
+          .transition()
+          .duration(500)
+          .tween('scroll', () => {
+            let i = d3.interpolateNumber(offset, targetOffset);
+            return t => {
+              contentView.scrollTop = i(t);
+            }
+          })
+      });
 
     let rect = colsEnter.merge(cols).selectAll('rect').data(d => d);
     let rectEnter = rect.enter();
@@ -230,7 +253,7 @@ class ConvAnalysis {
       .merge(rect)
       .attr("class", "sentiment-bar")
       .attr("height", d => yScale((d[1] - d[0]) / d.data.sentTotal))
-      .attr("width", xScale.bandwidth())
+      .attr("width", vis.config.barWidth)
       .attr("y", d => yScale(d[0] / d.data.sentTotal))
       .attr('fill', (d, i) => colorScale(i));
   }
@@ -254,8 +277,6 @@ class ConvAnalysis {
       .range(xRange)
       .padding(0.05);
 
-    vis.markWidth = xScale.bandwidth();
-
     const yScale = d3.scaleBand()
       .domain(Array.from(Array(vis.numTopics).keys()))
       .range(yRange)
@@ -277,7 +298,7 @@ class ConvAnalysis {
       .merge(rect)
       .attr("class", "topic-grid")
       .attr("height", yScale.bandwidth())
-      .attr("width", xScale.bandwidth())
+      .attr("width", vis.config.barWidth)
       .attr("y", (d, i) => yScale(i))
       .attr('fill', d => colorScale(d));
   }
@@ -297,32 +318,23 @@ class ConvAnalysis {
     let xRangeLeft;
     let xRangeRight;
 
-    if ((beforeData.length * vis.markWidth) < contextWidth) {
+    if ((beforeData.length * vis.config.barWidth) < contextWidth) {
       xRangeLeft = [
-        contextStart[0] + contextWidth - beforeData.length * vis.markWidth,
+        contextStart[0] + contextWidth - beforeData.length * vis.config.barWidth,
         contextStart[0] + contextWidth
       ];
     } else {
       xRangeLeft = [contextStart[0], contextStart[0] + contextWidth];
     }
 
-    if ((afterData.length * vis.markWidth) < contextWidth) {
+    if ((afterData.length * vis.config.barWidth) < contextWidth) {
       xRangeRight = [
         contextStart[1],
-        contextStart[1] + (afterData.length * vis.markWidth)
+        contextStart[1] + (afterData.length * vis.config.barWidth)
       ];
     } else {
       xRangeRight = [contextStart[1], contextStart[1] + contextWidth];
     }
-
-
-    // let stack = d3.stack()
-    //   .keys([0, 1, 2, 3, 4])
-    //   .value((d, key) => d.sentHeight[key])
-    //   .offset(d3.stackOffsetExpand); // Normalize between 0 and 1
-
-    // let stackLeft = stack(beforeData);
-    // let stackRight = stack(afterData);
 
     let yRange = [
       vis.config.barHeight,
@@ -383,109 +395,77 @@ class ConvAnalysis {
     colsLeft.exit().remove();
     colsRight.exit().remove();
     rectLeft.exit().remove();
-    rectRight.exit().remove()
-
-
-
-    // Define the x-scale for left and right context
-    // const xScaleLeft = d3.scaleBand()
-    //   .domain(beforeData.map(d => d.title))
-    //   .range([contextStart[0], contextStart[0] + contextWidth]);
-
-    // console.log(`Context Range Left: ${contextStart[0]}, ${contextStart[0] + contextWidth}`)
-
-    // const xScaleRight = d3.scaleBand()
-    //   .domain(afterData.map(d => d.title))
-    //   .range([contextStart[1], contextStart[1] + contextWidth]);
-
-    // console.log(`Context Range Right: ${contextStart[1]}, ${contextStart[1] + contextWidth}`)
-
-    // const height = vis.config.barHeight;
-    // const yScale = d3.scaleLinear()
-    //   .range([0, height]);
-
-    // let areaLeft = d3.area()
-    //   .x(d => xScaleLeft(d.data.title))
-    //   .y0(d => yScale(d[0]))
-    //   .y1(d => yScale(d[1]));
-
-    // let areaRight = d3.area()
-    //   .x(d => xScaleRight(d.data.title))
-    //   .y0(d => yScale(d[0]))
-    //   .y1(d => yScale(d[1]));
-
-    // let subgroups = ["sent0", "sent1", "sent2", "sent3", "sent4"];
-    // const colorScale = d3.scaleOrdinal()
-    //   .domain(subgroups)
-    //   .range(['#7d57bd','#aaa3cd','#f0f0f0', '#fdb863', '#e66101'])
-
-    // let pathLeft = vis.contextContainer.left.selectAll('path').data(stackLeft);
-    // let pathRight = vis.contextContainer.right.selectAll('path').data(stackRight);
-
-    // let pathLeftEnter = pathLeft.enter()
-    //   .append('path')
-    //   .merge(pathLeft)
-    //     .attr('fill', d => colorScale(d.key))
-    //     .attr('d', areaLeft);
-
-    // let pathRightEnter = pathRight.enter()
-    //   .append('path')
-    //   .merge(pathRight)
-    //     .attr('fill', d => colorScale(d.key))
-    //     .attr('d', areaRight);
-
+    rectRight.exit().remove();
   }
+
   renderSelector() {
     let vis = this;
 
-    let xRange = [
+    const xRange = [
       vis.config.margin.left + vis.config.contextWidth,
       vis.config.margin.left + vis.config.contextWidth + vis.config.focusWidth
     ]
-    let xScale = d3.scaleLinear().range([0, vis.config.focusWidth]);
-    let selectorWidth = xScale(vis.numFocused / vis.numConv);
+    const xScale = d3.scaleLinear().range([0, vis.config.focusWidth]);
+    const brushWidth = xScale(vis.numFocused / vis.numConv);
+    const brushHeight = 30;
 
-    const drag = () => {
-      let dx = xRange[0] + (vis.config.focusWidth - selectorWidth / 2);
-      let selectRange = [selectorWidth - vis.config.focusWidth, 0];
-      let xValue = d3.event.x - dx;
-      if (xValue < selectRange[0]) {
-        xValue = selectRange[0];
-      } else if (xValue > selectRange[1]) {
-        xValue = selectRange[1];
-      }
+    const yRange = [
+      vis.config.barHeight + vis.config.heatMapHeight,
+      vis.config.barHeight + vis.config.heatMapHeight + brushHeight
+    ]
 
-      d3.select('.scroll-selector').attr('x', xValue);
+    const renderView = (x0, x1) => {
+      const scale = d3.scaleLinear()
+        .domain(xRange)
+        .range([0, vis.numConv]);
 
-      let dataScale = d3.scaleLinear()
-        .domain([selectRange[0], selectRange[1]])
-        .range([vis.numFocused, vis.numConv]);
+      let startIndex = Math.round(scale(x0));
+      let endIndex = Math.round(scale(x1));
+      let numFocused = endIndex - startIndex;
 
-
-      let endIndex = Math.round(dataScale(xValue));
-      let startIndex = endIndex - vis.numFocused;
-
-      if (startIndex != vis.focusIndex.start && endIndex != vis.focusIndex.end){
-        vis.focusIndex = {'start': endIndex - vis.numFocused, 'end': endIndex};
+      if (startIndex != vis.focusIndex.start && endIndex != vis.focusIndex.end && numFocused === vis.numFocused){
+        vis.focusIndex = {'start': startIndex, 'end': endIndex};
         vis.renderFocus();
         vis.renderContext();
         vis.renderTopicFocus();
         vis.renderTopicContext();
       }
-      
+
     }
 
+    const beforebrushstarted = () => {
+      const cx = d3.mouse(d3.event.currentTarget)[0];
+      const [x0, x1] = [cx - brushWidth / 2, cx + brushWidth / 2];
 
-    let selector = vis.svgContainer.append('rect')
-      .attr('transform', `translate(${xRange[1] - selectorWidth}, ${vis.config.barHeight + vis.config.heatMapHeight})`)
-      .attr('class', 'scroll-selector')
-      .attr('width', selectorWidth)
-      .attr('height', 30)
-      .attr('pointer-events', 'all') // Any part of the element
-      .attr('cursor', 'ns-resize') // Bidirectional resize cursor
-      .call(d3.drag()
-        .on('drag', drag));
+      d3.select('#scroll-bar')
+          .call(brush.move, x1 > xRange[1] ? [xRange[1] - brushWidth, xRange[1]] 
+              : x0 < xRange[0] ? [xRange[0], xRange[0] + brushWidth] 
+              : [x0, x1]);
+      renderView(x0, x1)
+    }
+
+    const brushed = () => {
+      const selection = d3.event.selection;
+      let [x0, x1] = selection;
+      renderView(x0, x1)
+    }
+
+    const brush = d3.brushX()
+      .extent([[xRange[0], yRange[0]], [xRange[1], yRange[1]]])
+      .on('start brush end', brushed);
+
+    vis.svgContainer.append('g')
+      .attr('id', 'scroll-bar')
+      .call(brush)
+      .call(brush.move, [xRange[1] - brushWidth, xRange[1]])
+      .call(g => g.select(".overlay")
+          .datum({type: "selection"})
+          .on("mousedown touchstart", beforebrushstarted));
+
+
+    // Remove resize handles
+    d3.selectAll('#scroll-bar>.handle').remove();
+    // d3.selectAll('#scroll-bar>.overlay').remove();
   }
-
 }
 

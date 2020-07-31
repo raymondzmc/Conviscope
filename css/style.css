@@ -9,8 +9,64 @@
 }
 
 .scroll-selector {
-	stroke: black;
-	stroke-opacity: .1;
-	fill: grey;
-	fill-opacity: .5;
+    stroke: black;
+    stroke-opacity: .1;
+    fill: grey;
+    fill-opacity: .5;
+}
+
+.view-label {
+    background: steelblue;
+    padding: 0.25em;
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+    border-radius: 0.5em;
+    margin: 0.25em;
+}
+
+g {
+    pointer-events: bounding-box;
+}
+
+/* Conversation messages view */
+#content-view {
+    height: 1080px;
+    overflow-y: scroll;
+    margin: 1em 1em 0 1em;
+    border: 1px solid black;
+}
+
+ol {
+    list-style-type: none;
+    padding: 0 1em 0;
+}
+
+.msg-list {
+    margin: .5em 0;
+    border: 1px solid black;
+}
+
+.msg-list:hover {
+    border: 3px solid black;
+}
+
+
+.msg-list-item {
+    margin: .25em 0;
+}
+
+
+
+/* The layout of the visualization */
+.row {
+    display: flex;
+}
+
+#main-view {
+    flex: 50%;
+}
+
+#conversation-view {
+    flex: 25%;
 }

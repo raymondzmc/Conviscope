@@ -1,3 +1,6 @@
+import {ContentView} from './convMessages.js';
+import {ConvAnalysis} from './convAnalysis.js';
+
 Promise.all([
   d3.json('resources/ConvexJSON/omega_2.json'),
   d3.json('resources/ConvexJSON/omega_3.json'),
@@ -15,19 +18,23 @@ Promise.all([
   let numFocused = 50;
 
   let analysis = new ConvAnalysis({
-    parentElement: "#main",
+    parentElement: "#main-view",
     numTopics: numTopics,
     numFocused: numFocused
   })
 
+  let content = new ContentView({
+    parentElement: "#content-view"
+  })
+
   let sentiments = [[], [], [], [], []];
-  let prev = 0;
+  let prev, curr;
 
 
   // Sort by datetime ascending
   conversations.sort((a, b) => Date.parse(a.date) - Date.parse(b.date))
   conversations.forEach((d, i) => {
-
+    d.text = d.htmltext.split('||');
     d.sentHeight = Array(5).fill(0); // The start and end y-value of each sentiment sub-bar
     d.topicHeatmap = Array(numTopics).fill(0); // The topical heatmap grids that activates
     d.sentTotal = 0; // Total number of messages in the conversation
@@ -46,7 +53,8 @@ Promise.all([
     })
   })
 
-  // Assign values and update the visualization
+  content.data = conversations;
+  content.updateVis();
   analysis.data = conversations;
   analysis.updateVis();
 })

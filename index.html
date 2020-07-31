@@ -6,8 +6,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.16.0/d3.min.js"></script>
 </head>
 <body>
-    <div id="main"></div>
-    <script src="js/convAnalysis.js"></script>
-    <script src="js/index.js"></script>
+    <div id="visualization" class="row">
+    	<div id="main-view">
+    		<div class="view-label">Conversation Analysis</div>
+    	</div>
+    	<div id="content-container">
+    		<div class="view-label">Conversation Content</div>
+    		<div id="content-view"></div>
+    	</div>
+    </div>
+    <script type="module" src="js/main.js"></script>
 </body>
 </html>
