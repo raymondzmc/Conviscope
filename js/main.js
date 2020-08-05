@@ -1,4 +1,4 @@
-import {ContentView} from './convMessages.js';
+import {ContentView} from './contentView.js';
 import {ConvAnalysis} from './convAnalysis.js';
 
 Promise.all([
