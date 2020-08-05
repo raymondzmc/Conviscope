@@ -6,17 +6,36 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.16.0/d3.min.js"></script>
 </head>
 <body>
-    <div id="visualization" class="row">
-    	<div id="metadata-view"> </div>
-    	<div id="topics-view"></div>
-    	<div id="main-view">
-    		<div class="view-label">Conversation Analysis</div>
-    	</div>
-    	<div id="content-container">
-    		<div class="view-label">Conversation Content</div>
-    		<div id="content-view"></div>
-    	</div>
+
+    <div id="vis-container">
+        <div id="filter-row" class="row">
+            <div id="filter-container">Dataset Filter</div>
+        </div>
+        <div id="vis-row" class="row">
+            <div id="metadata-container" class="vis-col">
+                <div class="container-label">
+                    <span> Metadata </span>
+                </div>
+            </div>
+            <div id="topics-container" class="vis-col">
+                <div class="container-label">
+                    <span> Topics </span>
+                </div>
+            </div>
+            <div id="analysis-container" class="vis-col">
+                <div class="container-label">
+                    <span> Analysis </span>
+                </div>
+            </div>
+            <div id="content-container" class="vis-col">
+                <div class="container-label">
+                    <span> Content </span>
+                </div>
+                <div id="content-view"></div>
+            </div>
+        </div>
     </div>
+
     <script type="module" src="js/main.js"></script>
 </body>
 </html>

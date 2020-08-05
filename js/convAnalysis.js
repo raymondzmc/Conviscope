@@ -1,12 +1,15 @@
 export class ConvAnalysis {
   constructor(_config) {
 
+    let containerWidth = d3.select(_config.parentElement).node().getBoundingClientRect().width;
+    let containerHeight = d3.select(_config.parentElement).node().getBoundingClientRect().height;
+
     // TODO: Make height/width relative to the screen size
     this.config = {
       parentElement: _config.parentElement,
-      containerWidth: _config.containerWidth || 1920,
-      containerHeight: _config.containerHeight || 1080,
-      margin: { top: 50, bottom: 50, right: 10, left: 100 }
+      containerWidth: _config.containerWidth || containerWidth,
+      containerHeight: _config.containerHeight || containerHeight,
+      margin: { top: 50, bottom: 50, right: 10, left: 10 }
     }
 
     // Number of conversations in the focused view
@@ -44,8 +47,12 @@ export class ConvAnalysis {
     // Define height s.t. each grid is a square
     vis.config.heatMapHeight = (vis.config.focusWidth / vis.numFocused) * vis.numTopics;
     vis.svgContainer = d3.select(vis.config.parentElement).append("svg")
-      .attr("height", vis.config.containerHeight)
-      .attr("width", vis.config.containerWidth);
+      .attr('id', 'analysis-view')
+      // .attr("preserveAspectRatio", "xMinYMin meet")
+      // .attr("viewBox", "0 0 600 400")
+      // .classed("svg-content-responsive", true); 
+      .attr("height", '90%')
+      .attr("width", '100%');
   }
 
   updateVis() {
@@ -149,7 +156,7 @@ export class ConvAnalysis {
 
     const height = vis.config.barHeight;
     const yScale = d3.scaleLinear()
-      .range([0, height]);
+      .range([vis.config.margin.top, height]);
 
     let areaLeft = d3.area()
       .x(d => xScaleLeft(d.data.title))
@@ -215,7 +222,7 @@ export class ConvAnalysis {
       .padding(0.05);
 
     const yScale = d3.scaleLinear()
-      .range([0, vis.config.barHeight]);
+      .range([vis.config.margin.top, vis.config.barHeight]);
 
     const colorScale = d3.scaleOrdinal()
       .domain(subgroups)
@@ -231,10 +238,10 @@ export class ConvAnalysis {
     colsEnter.merge(cols)
       .on('click', (d) => {
         let contentElement = document.getElementById(`${d[0].data.title}-content`);
-        let contentView = document.getElementById('content-view');
-        let targetOffset = contentElement.offsetTop - contentView.offsetTop - 5;
+        let contentView = contentElement.parentNode.parentNode;
+        let targetOffset = contentElement.offsetTop - 5;
         let offset = contentView.scrollTop;
-        d3.select('#content-view')
+        d3.select(`#${contentView.id}`)
           .transition()
           .duration(500)
           .tween('scroll', () => {

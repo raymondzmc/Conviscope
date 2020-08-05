@@ -18,7 +18,7 @@ Promise.all([
   let numFocused = 50;
 
   let analysis = new ConvAnalysis({
-    parentElement: "#main-view",
+    parentElement: "#analysis-container",
     numTopics: numTopics,
     numFocused: numFocused
   })

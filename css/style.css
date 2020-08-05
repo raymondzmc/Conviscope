@@ -1,3 +1,92 @@
+/**************** Layout ****************/
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+#vis-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+#filter-row {
+    flex: 1;
+}
+
+#filter-container {
+    border: 1px solid blue;
+    height: 100%;
+    width: 100%;
+}
+
+#vis-row {
+    flex: 6;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.vis-col {
+    border: 1px solid red;
+}
+
+#metadata-container {
+    flex: 2;
+}
+
+#topics-container {
+    flex: 5;
+}
+
+#analysis-container {
+    flex: 5;
+}
+
+#content-container {
+    flex: 4;
+}
+
+.container-label {
+    background: steelblue;
+    padding: 2px;
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+    border-radius: 0.5em; /* TO DO: Make this absolute? */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 5%;
+}
+
+
+/**************** Analysis View ****************/
+/*#anlysis-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    vertical-align: top;
+    overflow: hidden;
+}
+*/
+/*#analysis-view {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}*/
+
 .sentiment-bar {
     stroke: black;
     stroke-width: 0.3;
@@ -15,23 +104,23 @@
     fill-opacity: .5;
 }
 
-.view-label {
-    background: steelblue;
-    padding: 0.25em;
-    font-size: 2em;
-    text-align: center;
-    color: #fff;
-    border-radius: 0.5em;
-    margin: 0.25em;
-}
-
 g {
     pointer-events: bounding-box;
 }
 
-/* Conversation messages view */
+
+/**************** Content View ****************/
+
+/*#content-container {
+    display: flex;
+    flex-direction: column;
+}*/
+
 #content-view {
-    height: 1080px;
+    
+    position: absolute;
+    height: 75%;
+    width: 23%;
     overflow-y: scroll;
     margin: 1em 1em 0 1em;
     border: 1px solid black;
@@ -54,19 +143,4 @@ ol {
 
 .msg-list-item {
     margin: .25em 0;
-}
-
-
-
-/* The layout of the visualization */
-.row {
-    display: flex;
-}
-
-#main-view {
-    flex: 50%;
-}
-
-#conversation-view {
-    flex: 25%;
 }
