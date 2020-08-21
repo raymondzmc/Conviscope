@@ -6,7 +6,7 @@ The front end re-implementattion of Conviscope using the newest version of [D3.j
 
 In terminal, run `python3 -m http.server 8000`, and go to http://0.0.0.0:8000/ in browser.
 
-< ## Current Layout >
+## Current Layout (outdated)
 <img src="./resources/sentiment_view.png" alt="screenshot of the current progress" width="250" height="whatever">%
 
 ## Future Work
