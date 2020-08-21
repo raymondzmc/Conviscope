@@ -421,6 +421,7 @@ export class ConvAnalysis {
       vis.config.barHeight + vis.config.heatMapHeight + brushHeight
     ]
 
+    // Essentially rerender the entire view when the brush is activated
     const renderView = (x0, x1) => {
       const scale = d3.scaleLinear()
         .domain(xRange)
