@@ -440,6 +440,7 @@ export class ConvAnalysis {
 
     }
 
+    // Move the brush to the corresponding location when clicking the overlay
     const beforebrushstarted = () => {
       const cx = d3.mouse(d3.event.currentTarget)[0];
       const [x0, x1] = [cx - brushWidth / 2, cx + brushWidth / 2];
@@ -451,6 +452,7 @@ export class ConvAnalysis {
       renderView(x0, x1)
     }
 
+    // Re-render the view when brush is activated
     const brushed = () => {
       const selection = d3.event.selection;
       let [x0, x1] = selection;
