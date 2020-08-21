@@ -459,10 +459,12 @@ export class ConvAnalysis {
       renderView(x0, x1)
     }
 
+    // Create the brush object
     const brush = d3.brushX()
       .extent([[xRange[0], yRange[0]], [xRange[1], yRange[1]]])
       .on('start brush end', brushed);
 
+    // Bind the brush to the group object
     vis.svgContainer.append('g')
       .attr('id', 'scroll-bar')
       .call(brush)
