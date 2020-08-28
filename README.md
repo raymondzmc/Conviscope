@@ -1,6 +1,6 @@
-# Conviscope
+# Convis
 
-The front end re-implementattion of Conviscope using the newest version of [D3.js](https://github.com/d3/d3/releases/tag/v5.16.0)
+The front end re-implementattion of Convis using the newest version of [D3.js](https://github.com/d3/d3/releases/tag/v5.16.0)
 
 ## Get Started
 
